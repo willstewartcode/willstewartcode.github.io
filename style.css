@@ -1,7 +1,7 @@
 body {
     background-color: white;
     font-family: 'Lato', sans-serif;
-    color: #1f1f1f;
+    color: rgb(75, 75, 75);
 }
 
 aside {
@@ -177,10 +177,12 @@ section a i {
     justify-content: flex-start;
     width: 100%;
     padding: 0;
+    margin-bottom: 0;
 }
 
 #skills li {
     margin-right: 1rem;
+    font-size: 1.2rem;
 }
 
 /* 
@@ -194,7 +196,7 @@ section a i {
 }
 
 .portfolio-item {
-    height: 300px;
+    height: 400px;
     border: 2px solid #f7f7f7;
     background-size: cover;
     background-position: top center;
