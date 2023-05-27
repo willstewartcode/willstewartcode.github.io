@@ -180,6 +180,9 @@ section a i {
     margin-right: 1rem;
 }
 
+/* 
+    Portfolio grid
+*/
 .portfolio-grid {
     padding: 0;
     margin: auto;
@@ -191,11 +194,11 @@ section a i {
     height: 300px;
     border: 2px solid #f7f7f7;
     background-size: cover;
-    background-position: top left;
+    background-position: top center;
+    background-color: #f7f7f7;
 }
 
 #stewart-construction {
-    background-color: black;
     background-image: url(images/stewart-construction.png);
 }
 
