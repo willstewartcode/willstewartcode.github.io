@@ -137,11 +137,13 @@ section a i {
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
+    /* border: 2px solid green; */
 }
 
 #profile-photo-wrapper {
+    width: 30%;
     padding: 0;
-    width: 43%;
+    /* border: 2px solid red; */
 }
 
 #profile-photo-wrapper img {
@@ -152,9 +154,10 @@ section a i {
 }
 
 #intro-text {
-    padding-left: 2rem;
     padding-right: 0;
-    width: 57%;
+    padding-left: 2rem;
+    width: fit-content;
+    /* border: 2px solid blue; */
 }
 
 #intro-text h2 {
