@@ -203,8 +203,15 @@ section a i {
     background-color: #f7f7f7;
 }
 
+/*
+    Portfolio images
+*/
 #stewart-construction {
     background-image: url(images/stewart-construction.png);
+}
+
+#wordpress-custom {
+    background-image: url(images/stewart_will_assignment5.jpg);
 }
 
 .portfolio-caption {
