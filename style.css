@@ -113,7 +113,7 @@ main section {
     width: 80%;
 }
 
-section h3 {
+section h3, section h4 {
     margin-bottom: 2rem;
     color: rgb(75, 75, 75);
 }
@@ -207,6 +207,11 @@ section a i {
     background-color: #f7f7f7;
 }
 
+.various-projects {
+    margin: auto;
+    border: 1px solid red;
+}
+
 /*
     Portfolio images
 */
@@ -216,6 +221,14 @@ section a i {
 
 #wordpress-custom {
     background-image: url(images/stewart_will_assignment5.jpg);
+}
+
+#rectangle-calculator {
+    background-image: url(images/rectangle-calculator.png);
+}
+
+#olympic-judging-calculator {
+    background-image: url(images/olympic-judging-calculator.png);
 }
 
 .portfolio-caption {
