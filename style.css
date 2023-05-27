@@ -203,10 +203,6 @@ section a i {
     background-color: #f7f7f7;
 }
 
-.portfolio-item:hover {
-    height: fit-content;
-}
-
 /*
     Portfolio images
 */
