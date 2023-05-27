@@ -26,7 +26,7 @@ h1 {
 
 hr {
     border: 2px solid #d6d6d6;
-    width: 77%;
+    width: 80%;
     border-radius: 2px;
     margin: 3rem auto;
 }
@@ -105,12 +105,12 @@ main {
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: center;
-    padding: 3rem;
+    padding: 3rem 0;
 
 }
 
 main section {
-    width: 77%;
+    width: 80%;
 }
 
 section h3 {
@@ -185,6 +185,10 @@ section a i {
     font-size: 1.2rem;
 }
 
+#skills li i {
+    margin-right: .25rem;
+}
+
 /* 
     Portfolio grid
 */
@@ -243,4 +247,16 @@ section a i {
     background-color: #ff5555;
     color: white;
 
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+footer p {
+    color: rgb(124, 124, 124);
+    padding-bottom: 3rem;
+    margin: 0;
 }
