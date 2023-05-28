@@ -218,6 +218,10 @@ section a i {
     box-sizing: initial;
 }
 
+#last-portfolio-item {
+    margin-bottom: 0 !important;
+}
+
 /*
     Portfolio images
 */
