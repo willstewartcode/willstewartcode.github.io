@@ -164,7 +164,7 @@
                      <a href="#work">Work</a>
 							<a href="#about">About</a>
 							<!-- <a href="#">Resume</a> -->
-							<a href="#">Contact</a>
+							<a href="#contact">Contact</a>
 						</div>
 					</nav>
                <!-- Social links -->
@@ -282,6 +282,27 @@
                   </p>
                </section>
                <hr>
+
+               <!-- Contact -->
+               <section class="row" id="contact">
+                  <h3><i class="fa-solid fa-envelope"></i> &nbsp;Contact</h3>
+                  
+                  <form action="/action_page.php">
+                     <label for="fname">First Name</label>
+                     <input type="text" id="fname" name="firstname" placeholder="Your name..." required>
+                 
+                     <label for="lname">Last Name</label>
+                     <input type="text" id="lname" name="lastname" placeholder="Your last name..." required>
+                 
+                     <label for="email">Your email</label>
+                     <input type="email" id="email" name="email" placeholder="Your email..." required>
+                 
+                     <label for="subject">Subject</label>
+                     <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px" required></textarea>
+                 
+                     <input type="submit" value="Submit">
+                   </form>
+               </section>
             </main>
 
             <footer class="col-md-12">
