@@ -274,6 +274,10 @@ section a i {
     color: white;
 }
 
+#about p {
+    padding: 0;
+}
+
 footer {
     display: flex;
     justify-content: flex-end;
