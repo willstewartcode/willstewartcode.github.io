@@ -1,3 +1,6 @@
+/*
+    General styles
+*/
 body {
     background-color: white;
     font-family: 'Lato', sans-serif;
@@ -20,23 +23,27 @@ a {
     text-decoration: none;
 }
 
-h1 {
+h1, h3 {
     font-weight: bold;
+}
+
+h3, h4 {
+    margin-bottom: 2rem;
+    padding: 0 !important;
 }
 
 hr {
     border: 2px solid #d6d6d6;
-    width: 80%;
+    width: 100%;
     border-radius: 2px;
     margin: 3rem auto;
 }
 
+/*
+    Sidebar/navigation
+*/
 svg {
     width: 40%;
-}
-
-aside .row {
-    /* border: 2px solid red; */
 }
 
 #logo-container {
@@ -99,23 +106,22 @@ aside .row {
     color: #ff5555;
 }
 
-/* Main Content */
+/*
+    Main, sections
+*/
 main {
     display: flex;
     flex-flow: column wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    margin: auto;
     padding: 3rem 0;
 
 }
 
 main section {
-    width: 80%;
-}
-
-section h3, section h4 {
-    margin-bottom: 2rem;
-    color: rgb(75, 75, 75);
+    width: 100%;
+    display: flex;
 }
 
 section h3 i {
@@ -131,9 +137,10 @@ section a i {
     margin-left: .2rem;
 }
 
-/* Intro */
+/*
+    Intro section
+*/
 #introduction {
-    display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
@@ -141,7 +148,7 @@ section a i {
 }
 
 #profile-photo-wrapper {
-    max-width: 30%;
+    max-width: 25%;
     padding: 0;
     /* border: 2px solid red; */
 }
@@ -164,10 +171,11 @@ section a i {
     font-weight: bold;
 }
 
-/* Skills */
-.section-content {
+/*
+    Skills
+*/
+#skills {
     width: 100%;
-    padding: 0;
 }
 
 #skills ul {
@@ -193,23 +201,21 @@ section a i {
     Portfolio grid
 */
 .portfolio-grid {
-    padding: 0;
     margin: auto;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
+    width: 100%;
 }
 
 .portfolio-item {
+    padding: 0 !important;
     height: 400px;
+    box-sizing: border-box;
     border: 2px solid #f7f7f7;
     background-size: cover;
     background-position: top center;
     background-color: #f7f7f7;
-}
-
-.various-projects {
-    margin: auto;
-    border: 1px solid red;
+    box-sizing: initial;
 }
 
 /*
@@ -231,13 +237,16 @@ section a i {
     background-image: url(images/olympic-judging-calculator.png);
 }
 
+#point-of-sale-system {
+    background-image: url(images/point-of-sale-system.png);
+}
+
 .portfolio-caption {
-    padding: 0;
     margin-bottom: 4rem;
+    padding: 0;
 }
 
 .portfolio-caption h3 {
-    font-weight: bold;
     margin: 1rem auto;
 }
 
@@ -259,13 +268,11 @@ section a i {
 .portfolio-caption a:hover {
     background-color: #ff5555;
     color: white;
-
 }
 
 footer {
     display: flex;
     justify-content: flex-end;
-    padding: 0;
 }
 
 footer p {
