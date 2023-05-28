@@ -8,7 +8,7 @@ body {
 }
 
 aside {
-    background-color: #f7f7f7;
+    background-color: white;
     height: 100vh;
     position: sticky;
     display: flex;
