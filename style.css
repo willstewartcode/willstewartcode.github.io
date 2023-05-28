@@ -241,6 +241,10 @@ section a i {
     background-image: url(images/point-of-sale-system.png);
 }
 
+#personal-homepage {
+    background-image: url(images/personal-homepage.png);
+}
+
 .portfolio-caption {
     margin-bottom: 4rem;
     padding: 0;
