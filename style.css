@@ -52,18 +52,16 @@ svg {
 
 #logo-container {
     margin: 1rem auto;
-    width: 80%;
+    width: 100%;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
 }
 
 #logo {
     height: 100%;
     width: 100%;
-    border: 1px solid blue;
 }
 
 #sidebar-heading {
@@ -81,7 +79,6 @@ svg {
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: center;
-    border: 2px solid green;
 }
 
 .nav-links a {
