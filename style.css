@@ -111,7 +111,7 @@ svg {
     width: fit-content;
     margin: 0 .5rem;
     font-size: 1.2rem;
-    color: black;
+    color: rgb(75, 75, 75);
 }
 
 #social-links a:hover {
