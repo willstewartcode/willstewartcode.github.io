@@ -163,7 +163,6 @@ section a i {
 }
 
 #profile-photo-wrapper {
-    max-width: 25%;
     padding: 0;
     /* border: 2px solid red; */
 }
@@ -184,6 +183,7 @@ section a i {
 
 #intro-text h2 {
     font-weight: bold;
+    font-size: 2.5rem;
 }
 
 /*
@@ -347,15 +347,22 @@ footer p {
     }
 }
 
-@media (max-width: 638px) {
+@media (max-width: 1072px) {
     #introduction {
-        flex-flow: column wrap;
+        flex-direction: column;
     }
 
     #intro-text {
-        margin-top: 2rem;
         padding-left: 0;
+        padding-top: 2rem;
         text-align: center;
+    }
+    
+}
+
+@media (max-width: 991px) {
+    #profile-photo-wrapper {
+        max-width: 40%;
     }
 }
 
