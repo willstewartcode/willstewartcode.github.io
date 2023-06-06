@@ -215,13 +215,6 @@ section a i {
 /* 
     Portfolio grid
 */
-.portfolio-grid {
-    margin: auto;
-    display: flex;
-    flex-flow: column wrap;
-    width: 100%;
-}
-
 .portfolio-item {
     padding: 0 !important;
     height: 400px;
@@ -231,6 +224,14 @@ section a i {
     background-position: top center;
     background-color: #f7f7f7;
     box-sizing: initial;
+}
+
+.grid-item-1 {
+    padding-left: 0 !important;
+}
+
+.grid-item-3 {
+    padding-right: 0 !important;
 }
 
 #last-portfolio-item {
@@ -355,5 +356,22 @@ footer p {
         margin-top: 2rem;
         padding-left: 0;
         text-align: center;
+    }
+}
+
+@media (max-width: 1399px) {
+    .grid-item-2 {
+        padding-right: 0 !important;
+    }
+
+    .grid-item-3 {
+        padding-left: 0;
+        padding-right: calc(var(--bs-gutter-x) * .5) !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .grid-item {
+        padding: 0 !important;
     }
 }
