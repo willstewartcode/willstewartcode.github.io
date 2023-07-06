@@ -341,11 +341,6 @@ footer p {
 /*
     Media queries
 */
-@media (max-width: 767px) {
-    aside {
-        position: relative;
-    }
-}
 
 @media (max-width: 1072px) {
     #introduction {
