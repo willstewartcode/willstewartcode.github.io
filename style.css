@@ -1,28 +1,12 @@
 /*
-    General styles
+    General
 */
+
 body {
     background-color: white;
     font-family: 'Barlow', sans-serif;
     color: rgb(75, 75, 75);
     font-size: 1rem;
-}
-
-aside {
-    background-color: #f7f7f7;
-    text-align: center;
-    height: 100vh;
-    position: sticky;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: flex-start;
-    /* border: 2px solid orange; */
-    padding: 3rem 1rem;
-    overflow: hidden;
 }
 
 a {
@@ -49,6 +33,7 @@ hr {
 /*
     Navigation
 */
+
 .navbar-brand img {
     margin-right: .5rem;
 }
@@ -56,6 +41,7 @@ hr {
 /*
     Main, sections
 */
+
 main {
     display: flex;
     flex-flow: column wrap;
@@ -87,6 +73,7 @@ section a i {
 /*
     Intro section
 */
+
 #introduction {
     flex-flow: row wrap;
     align-items: center;
@@ -121,6 +108,7 @@ section a i {
 /*
     Skills
 */
+
 #skills {
     width: 100%;
 }
@@ -147,6 +135,7 @@ section a i {
 /* 
     Portfolio grid
 */
+
 .portfolio-item {
     padding: 0 !important;
     height: 400px;
@@ -173,6 +162,7 @@ section a i {
 /*
     Portfolio images
 */
+
 #stewart-construction {
     background-image: url(images/stewart-construction.png);
 }
