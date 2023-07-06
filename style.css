@@ -45,80 +45,10 @@ hr {
 }
 
 /*
-    Sidebar/navigation
+    Navigation
 */
-svg {
-    width: 40%;
-}
-
-#logo-container {
-    margin: 1rem auto;
-    width: fit-content;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border: 1px solid red; */
-}
-
-#logo {
-    height: 100%;
-    width: 100%;
-    /* border: 1px solid green; */
-}
-
-#sidebar-heading {
-    text-align: center;
-    color: #ff5555;
-    width: 100%;
-    margin: 1rem 0;
-}
-
-.nav-links {
-    list-style: none;
-    /* border: 2px inset green; */
-    width: 100%;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.nav-links a {
-    color: #ff5555;
-    background-color: white;
-    /* border: 2px solid hotpink; */
-    padding: .5rem;
-    margin: .5rem 0;
-    width: 100px;
-    text-align: center;
-    border-radius: 20px;
-    transition: .2s;
-}
-
-.nav-links a:hover {
-    background-color: #ff5555;
-    color: white;
-}
-
-#social-links {
-    width: 100%;
-    margin-top: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#social-links a {
-    padding: 0;
-    width: fit-content;
-    margin: 0 .5rem;
-    font-size: 1.2rem;
-    color: rgb(75, 75, 75);
-}
-
-#social-links a:hover {
-    color: #ff5555;
+.navbar-brand img {
+    margin-right: .5rem;
 }
 
 /*
