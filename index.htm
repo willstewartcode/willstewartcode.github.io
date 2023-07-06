@@ -23,6 +23,8 @@
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
 			
 	<link href="style.css" rel="stylesheet">
+   <link rel="stylesheet" href="navbar-fixed-left.min.css">
+   <link rel="stylesheet" href="docs.css">
 
    <!-- Font Awesome -->
    <script src="https://kit.fontawesome.com/8f6a5df95f.js" crossorigin="anonymous"></script>
@@ -31,239 +33,299 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+   <!-- Scripts -->
+   <script
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <script src="docs.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 
 <body>
 
+   <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-left">
+      <a class="navbar-brand" href>Will Stewart</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+              aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                  <div class="dropdown-menu">
+                      <a class="dropdown-item">Action</a>
+                      <a class="dropdown-item">Another action</a>
+                      <a class="dropdown-item">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item">Separated link</a>
+                      <a class="dropdown-item">One more separated link</a>
+                  </div>
+              </li>
+          </ul>
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" data-class="fixed-left">
+                      <i class="fa fa-arrow-left"></i>
+                      Fixed Left
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" data-class="fixed-top">
+                      <i class="fa fa-arrow-up"></i>
+                      Fixed Top
+                      <small>(original)</small>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" data-class="fixed-right">
+                      <i class="fa fa-arrow-right"></i>
+                      Fixed Right
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </nav>
 	
-		<div class="container-fluid">
-			<div class="row">
+   <div class="container-fluid">
+         <!-- Sidebar -->
+         <!-- <aside class="col-lg-2 col-md-3 col-sm-12">
+            <div class="col-md-2" id="logo-container">
+               <svg
+width="1000"
+height="866.04"
+viewBox="0 0 1000 866.04"
+version="1.1"
+id="logo"
+sodipodi:docname="logo.svg"
+inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:svg="http://www.w3.org/2000/svg">
+<defs
+   id="defs14" />
+<sodipodi:namedview
+   id="namedview12"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="0.372962"
+   inkscape:cx="1593.9962"
+   inkscape:cy="463.85423"
+   inkscape:window-width="1920"
+   inkscape:window-height="1009"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg10"
+   inkscape:showpageshadow="2"
+   inkscape:deskcolor="#d1d1d1" />
+<g
+   id="g1093">
+   <polygon
+      points="200 346.41 266.66 461.88 200 692.82 0 346.42 0.01 346.41 0 346.41 200 0 266.66 230.94 200 346.41"
+      id="polygon2"
+      inkscape:export-filename="D:\Libraries\Desktop\Personal Branding\logo_black_500px.png"
+      inkscape:export-xdpi="48"
+      inkscape:export-ydpi="48"
+      style="fill:#ff5555" />
+   <polygon
+      points="1000 346.41 1000 346.42 800 692.82 733.34 461.88 800 346.41 733.34 230.94 800 0 1000 346.41 1000 346.41"
+      id="polygon4"
+      inkscape:export-filename="D:\Libraries\Desktop\Personal Branding\logo_black_500px.png"
+      inkscape:export-xdpi="48"
+      inkscape:export-ydpi="48"
+      style="fill:#ff5555" />
+   <polygon
+      points="600 346.42 500 519.63 300 866.04 200 692.82 300 519.62 500 173.22 600 346.42"
+      id="polygon6"
+      inkscape:export-filename="D:\Libraries\Desktop\Personal Branding\logo_black_500px.png"
+      inkscape:export-xdpi="48"
+      inkscape:export-ydpi="48"
+      style="fill:#ff5555" />
+   <polygon
+      points="800 692.82 700 866.04 533.34 577.36 600 346.42 700 519.62 800 692.82"
+      id="polygon8"
+      inkscape:export-filename="D:\Libraries\Desktop\Personal Branding\logo_black_500px.png"
+      inkscape:export-xdpi="48"
+      inkscape:export-ydpi="48"
+      style="fill:#ff5555" />
+</g>
+               </svg>
+            </div>
 
-            <!-- Sidebar -->
-				<aside class="col-lg-2 col-md-3 col-sm-12">
-					<div class="col-md-2" id="logo-container">
-						<svg
-   width="1000"
-   height="866.04"
-   viewBox="0 0 1000 866.04"
-   version="1.1"
-   id="logo"
-   sodipodi:docname="logo.svg"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs14" />
-  <sodipodi:namedview
-     id="namedview12"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="0.372962"
-     inkscape:cx="1593.9962"
-     inkscape:cy="463.85423"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg10"
-     inkscape:showpageshadow="2"
-     inkscape:deskcolor="#d1d1d1" />
-  <g
-     id="g1093">
-    <polygon
-       points="200 346.41 266.66 461.88 200 692.82 0 346.42 0.01 346.41 0 346.41 200 0 266.66 230.94 200 346.41"
-       id="polygon2"
-       inkscape:export-filename="D:\Libraries\Desktop\Personal Branding\logo_black_500px.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48"
-       style="fill:#ff5555" />
-    <polygon
-       points="1000 346.41 1000 346.42 800 692.82 733.34 461.88 800 346.41 733.34 230.94 800 0 1000 346.41 1000 346.41"
-       id="polygon4"
-       inkscape:export-filename="D:\Libraries\Desktop\Personal Branding\logo_black_500px.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48"
-       style="fill:#ff5555" />
-    <polygon
-       points="600 346.42 500 519.63 300 866.04 200 692.82 300 519.62 500 173.22 600 346.42"
-       id="polygon6"
-       inkscape:export-filename="D:\Libraries\Desktop\Personal Branding\logo_black_500px.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48"
-       style="fill:#ff5555" />
-    <polygon
-       points="800 692.82 700 866.04 533.34 577.36 600 346.42 700 519.62 800 692.82"
-       id="polygon8"
-       inkscape:export-filename="D:\Libraries\Desktop\Personal Branding\logo_black_500px.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48"
-       style="fill:#ff5555" />
-  </g>
-                  </svg>
-					</div>
+            <div class="col-md-2" id="sidebar-heading">
+               <h1>Will Stewart</h1>
+               <p>Web Developer</p>
+            </div>
+            
+            <nav class="col-md-2 nav-links">
+               <a href="#">Home</a>
+               <a href="#work">Work</a>
+               <a href="#about">About</a>
+               <a href="#contact">Contact</a>
+            </nav>
+            
+            <div class="col-md-2" id="social-links">
+               <a href="https://github.com/willstewartcode"><i class="fa fa-github"></i></a>
+               <a href="https://www.linkedin.com/in/willcstewart/"><i class="fa fa-linkedin"></i></a>
+            </div>
+         </aside> -->
 
-					<div class="col-md-2" id="sidebar-heading">
-						<h1>Will Stewart</h1>
-						<p>Web Developer</p>
-					</div>
-               
-					<nav class="col-md-2 nav-links">
-                  <a href="#">Home</a>
-                  <a href="#work">Work</a>
-                  <a href="#about">About</a>
-                  <!-- <a href="#">Resume</a> -->
-                  <a href="#contact">Contact</a>
-					</nav>
-               
-               <div class="col-md-2" id="social-links">
-                  <a href="https://github.com/willstewartcode"><i class="fa fa-github"></i></a>
-                  <a href="https://www.linkedin.com/in/willcstewart/"><i class="fa fa-linkedin"></i></a>
+         <main class="col-md-8">
+            <!-- Intro -->
+            <section class="col-xxl-12" id="introduction">
+               <div class="col-xxl-3 col-lg-4 col-sm-12" id="profile-photo-wrapper">
+                  <img src="images/profile.jpg" alt="Profile photo of Will Stewart">
                </div>
-				</aside>
+               <div class="col-xxl-9 col-lg-8 col-sm-12" id="intro-text">
+                  <h2>Hi, I'm Will Stewart.</h2>
+                  <p>I am a front-end web developer & designer from Cleveland, TN.</p>
+                  <br>
+                  <a href="#about">More about me <i class="fa-solid fa-chevron-right"></i></a>
+               </div>
+            </section>
+            <hr>
+            <!-- Skills -->
+            <section class="row" id="skills">
+               <h3><i class="fa-solid fa-code"></i> &nbsp;Skills</h3>
+               <ul>
+                  <li><i class="fa-brands fa-html5"></i> HTML5</li>
+                  <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+                  <li><i class="fa-brands fa-bootstrap"></i> Bootstrap</li>
+                  <li><i class="fa-brands fa-wordpress-simple"></i> WordPress</li>
+                  <li><i class="fa-solid fa-layer-group"></i> UI/UX - Photoshop, Illustrator</li>
+                  <li><i class="fa-solid fa-pen-nib"></i> Graphic design</li>
+                  <li><i class="fa-solid fa-camera"></i> Photography</li>
+               </ul>
+            </section>
+            <hr>
 
-				<main class="col-md-8">
-               <!-- Intro -->
-               <section class="col-xxl-12" id="introduction">
-                  <div class="col-xxl-3 col-lg-4 col-sm-12" id="profile-photo-wrapper">
-                     <img src="images/profile.jpg" alt="Profile photo of Will Stewart">
-                  </div>
-                  <div class="col-xxl-9 col-lg-8 col-sm-12" id="intro-text">
-                     <h2>Hi, I'm Will Stewart.</h2>
-                     <p>I am a front-end web developer & designer from Cleveland, TN.</p>
+            <!-- Work -->
+            <section class="row" id="work">
+               <h3><i class="fa-solid fa-layer-group"></i> &nbsp;Work</h3>
+
+               <div class="col-md-12 portfolio-item" id="stewart-construction"></div>
+               <div class="col-md-12 portfolio-caption">
+                  <h3>Stewart Construction</h3>
+                  <p>Conceptual design for a construction company website.</p>
+                  <br>
+                  <a href="https://willstewartcode.github.io/Stewart-Construction/" target="_blank"><i class="fa-solid fa-globe"></i> View site</a>
+                  <a href="https://github.com/willstewartcode/Stewart-Construction" target="_blank"><i class="fa-brands fa-github"></i> View source</a>
+               </div>
+            
+               <div class="col-md-12 portfolio-item" id="personal-homepage"></div>
+               <div class="col-md-12 portfolio-caption">
+                  <h3>Personal Homepage</h3>
+                  <p>Personal website created with HTML and CSS.</p>
+                  <br>
+                  <a href="https://willstewart.dev/webassignment1/" target="_blank"><i class="fa-solid fa-globe"></i> View site</a>
+                  <a href="https://github.com/willstewartcode/webassignment1" target="_blank"><i class="fa-brands fa-github"></i> View source</a>
+               </div>
+
+               <h4 class="col-md-12">Various HTML/CSS/JavaScript projects</h4>
+               <div class="col-xxl-4 col-xl-6 col-md-12 grid-item grid-item-1">
+                  <div class="portfolio-item" id="rectangle-calculator"></div>
+                  <div class="portfolio-caption">
+                     <h3>Rectangle calculator</h3>
+                     <p>Uses JavaScript to calculate the area, perimeter, and distance between opposite corners of a rectangle.</p>
                      <br>
-                     <a href="#about">More about me <i class="fa-solid fa-chevron-right"></i></a>
+                     <a href="https://willstewart.dev/rectangle-calculator/" target="_blank"><i class="fa-solid fa-globe"></i> View site</a>
+                     <a href="https://github.com/willstewartcode/rectangle-calculator" target="_blank"><i class="fa-brands fa-github"></i> View source</a>
                   </div>
-               </section>
-               <hr>
-               <!-- Skills -->
-               <section class="row" id="skills">
-                  <h3><i class="fa-solid fa-code"></i> &nbsp;Skills</h3>
-                  <ul>
-                     <li><i class="fa-brands fa-html5"></i> HTML5</li>
-                     <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
-                     <li><i class="fa-brands fa-bootstrap"></i> Bootstrap</li>
-                     <li><i class="fa-brands fa-wordpress-simple"></i> WordPress</li>
-                     <li><i class="fa-solid fa-layer-group"></i> UI/UX - Photoshop, Illustrator</li>
-                     <li><i class="fa-solid fa-pen-nib"></i> Graphic design</li>
-                     <li><i class="fa-solid fa-camera"></i> Photography</li>
-                  </ul>
-               </section>
-               <hr>
-
-               <!-- Work -->
-               <section class="row" id="work">
-                  <h3><i class="fa-solid fa-layer-group"></i> &nbsp;Work</h3>
-
-                  <div class="col-md-12 portfolio-item" id="stewart-construction"></div>
-                  <div class="col-md-12 portfolio-caption">
-                     <h3>Stewart Construction</h3>
-                     <p>Conceptual design for a construction company website.</p>
+               </div>
+               <div class="col-xxl-4 col-xl-6 col-md-12 grid-item grid-item-2">
+                  <div class="portfolio-item" id="olympic-judging-calculator"></div>
+                  <div class="portfolio-caption">
+                     <h3>Olympic Judging Calculator</h3>
+                     <p>Takes the scores from eight Olympic judges and uses JavaScript to calculate the average score excluding the highest and lowest.</p>
                      <br>
-                     <a href="https://willstewartcode.github.io/Stewart-Construction/" target="_blank"><i class="fa-solid fa-globe"></i> View site</a>
-                     <a href="https://github.com/willstewartcode/Stewart-Construction" target="_blank"><i class="fa-brands fa-github"></i> View source</a>
+                     <a href="https://willstewart.dev/olympic-judging-calculator/" target="_blank"><i class="fa-solid fa-globe"></i> View site</a>
+                     <a href="https://github.com/willstewartcode/olympic-judging-calculator" target="_blank"><i class="fa-brands fa-github"></i> View source</a>
                   </div>
+               </div>
+               <div class="col-xxl-4 col-xl-6 col-md-12 grid-item grid-item-3">
+                  <div class="portfolio-item" id="point-of-sale-system"></div>
+                  <div class="portfolio-caption">
+                     <h3>Point of Sale System</h3>
+                     <p>A simple point of sale system page. Users can pick from three different items and enter the quantity they want. A total price is updated and reported to the user when new items are added.</p>
+                     <br>
+                     <a href="https://willstewart.dev/point-of-sale-system/" target="_blank"><i class="fa-solid fa-globe"></i> View site</a>
+                     <a href="https://github.com/willstewartcode/point-of-sale-system" target="_blank"><i class="fa-brands fa-github"></i> View source</a>
+                  </div>
+               </div>
+
+               <div class="col-md-12 portfolio-item" id="wordpress-custom"></div>
+               <div class="col-md-12 portfolio-caption" id="last-portfolio-item">
+                  <h3>WordPress site with custom theme</h3>
+                  <p>WordPress site created for a senior assignment using a custom child theme coded with HTML, CSS, and PHP.</p>
+                  <br>
+               </div>
+            </section>
+            <hr>
+
+            <!-- About -->
+            <section class="row" id="about">
+               <h3><i class="fa-solid fa-user"></i> &nbsp;About</h3>
                
-                  <div class="col-md-12 portfolio-item" id="personal-homepage"></div>
-                  <div class="col-md-12 portfolio-caption">
-                     <h3>Personal Homepage</h3>
-                     <p>Personal website created with HTML and CSS.</p>
-                     <br>
-                     <a href="https://willstewart.dev/webassignment1/" target="_blank"><i class="fa-solid fa-globe"></i> View site</a>
-                     <a href="https://github.com/willstewartcode/webassignment1" target="_blank"><i class="fa-brands fa-github"></i> View source</a>
-                  </div>
+               <p>
+                  I am a front-end web developer and designer from Cleveland, TN. I studied graphic design
+                  at Lee University from 2018-2020 before transitioning to web development and mobile app development at Austin Peay State University from 2020-2023.
+                  Prior to desiging websites, I focused on logo design and social media graphics using Adobe Photoshop and Illustrator.
+                  I also learned about and practiced photography as a hobby.
+                  <br><br>
+                  As a web designer, I am focused on the UI/UX design of websites using HTML, CSS, Bootstrap, and WordPress.
+                  I strive to make all my web designs responsive by using the latest features available in these technologies.
+               </p>
+            </section>
+            <hr>
 
-                  <h4 class="col-md-12">Various HTML/CSS/JavaScript projects</h4>
-                  <div class="col-xxl-4 col-xl-6 col-md-12 grid-item grid-item-1">
-                     <div class="portfolio-item" id="rectangle-calculator"></div>
-                     <div class="portfolio-caption">
-                        <h3>Rectangle calculator</h3>
-                        <p>Uses JavaScript to calculate the area, perimeter, and distance between opposite corners of a rectangle.</p>
-                        <br>
-                        <a href="https://willstewart.dev/rectangle-calculator/" target="_blank"><i class="fa-solid fa-globe"></i> View site</a>
-                        <a href="https://github.com/willstewartcode/rectangle-calculator" target="_blank"><i class="fa-brands fa-github"></i> View source</a>
-                     </div>
-                  </div>
-                  <div class="col-xxl-4 col-xl-6 col-md-12 grid-item grid-item-2">
-                     <div class="portfolio-item" id="olympic-judging-calculator"></div>
-                     <div class="portfolio-caption">
-                        <h3>Olympic Judging Calculator</h3>
-                        <p>Takes the scores from eight Olympic judges and uses JavaScript to calculate the average score excluding the highest and lowest.</p>
-                        <br>
-                        <a href="https://willstewart.dev/olympic-judging-calculator/" target="_blank"><i class="fa-solid fa-globe"></i> View site</a>
-                        <a href="https://github.com/willstewartcode/olympic-judging-calculator" target="_blank"><i class="fa-brands fa-github"></i> View source</a>
-                     </div>
-                  </div>
-                  <div class="col-xxl-4 col-xl-6 col-md-12 grid-item grid-item-3">
-                     <div class="portfolio-item" id="point-of-sale-system"></div>
-                     <div class="portfolio-caption">
-                        <h3>Point of Sale System</h3>
-                        <p>A simple point of sale system page. Users can pick from three different items and enter the quantity they want. A total price is updated and reported to the user when new items are added.</p>
-                        <br>
-                        <a href="https://willstewart.dev/point-of-sale-system/" target="_blank"><i class="fa-solid fa-globe"></i> View site</a>
-                        <a href="https://github.com/willstewartcode/point-of-sale-system" target="_blank"><i class="fa-brands fa-github"></i> View source</a>
-                     </div>
-                  </div>
+            <!-- Contact -->
+            <section class="row" id="contact">
+               <h3><i class="fa-solid fa-envelope"></i> &nbsp;Contact</h3>
+               
+               <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..." required>
+               
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..." required>
+               
+                  <label for="email">Your email</label>
+                  <input type="email" id="email" name="email" placeholder="Your email..." required>
+               
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px" required></textarea>
+               
+                  <input type="submit" value="Submit">
+                  </form>
+            </section>
+         </main>
 
-                  <div class="col-md-12 portfolio-item" id="wordpress-custom"></div>
-                  <div class="col-md-12 portfolio-caption" id="last-portfolio-item">
-                     <h3>WordPress site with custom theme</h3>
-                     <p>WordPress site created for a senior assignment using a custom child theme coded with HTML, CSS, and PHP.</p>
-                     <br>
-                  </div>
-               </section>
-               <hr>
-
-               <!-- About -->
-               <section class="row" id="about">
-                  <h3><i class="fa-solid fa-user"></i> &nbsp;About</h3>
-                  
-                  <p>
-                     I am a front-end web developer and designer from Cleveland, TN. I studied graphic design
-                     at Lee University from 2018-2020 before transitioning to web development and mobile app development at Austin Peay State University from 2020-2023.
-                     Prior to desiging websites, I focused on logo design and social media graphics using Adobe Photoshop and Illustrator.
-                     I also learned about and practiced photography as a hobby.
-                     <br><br>
-                     As a web designer, I am focused on the UI/UX design of websites using HTML, CSS, Bootstrap, and WordPress.
-                     I strive to make all my web designs responsive by using the latest features available in these technologies.
-                  </p>
-               </section>
-               <hr>
-
-               <!-- Contact -->
-               <section class="row" id="contact">
-                  <h3><i class="fa-solid fa-envelope"></i> &nbsp;Contact</h3>
-                  
-                  <form action="/action_page.php">
-                     <label for="fname">First Name</label>
-                     <input type="text" id="fname" name="firstname" placeholder="Your name..." required>
-                 
-                     <label for="lname">Last Name</label>
-                     <input type="text" id="lname" name="lastname" placeholder="Your last name..." required>
-                 
-                     <label for="email">Your email</label>
-                     <input type="email" id="email" name="email" placeholder="Your email..." required>
-                 
-                     <label for="subject">Subject</label>
-                     <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px" required></textarea>
-                 
-                     <input type="submit" value="Submit">
-                   </form>
-               </section>
-            </main>
-
-            <footer class="col-md-12">
-               <p class="col-md-9">Copyright 2023 Will Stewart</p>
-            </footer>
-			</div>
-		</div>
+         <footer class="col-md-12">
+            <p class="col-md-9">Copyright 2023 Will Stewart</p>
+         </footer>
+   </div>
     
     
 </body>
