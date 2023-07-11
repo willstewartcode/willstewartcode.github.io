@@ -23,11 +23,17 @@ h3, h4 {
     padding: 0 !important;
 }
 
+section {
+    width: 100%;
+    display: flex;
+    padding: 7rem 0 !important;
+}
+
 hr {
-    border: 2px solid #d6d6d6;
+    border: 1px solid #d6d6d6;
     width: 100%;
     border-radius: 2px;
-    margin: 4rem auto;
+    margin: 0 !important;
 }
 
 /*
@@ -36,6 +42,26 @@ hr {
 
 .navbar-brand img {
     margin-right: .5rem;
+}
+
+.primary-nav-links {
+    justify-content: center;
+    text-align: center;
+    width: fit-content;
+}
+
+.form-inline {
+    width: fit-content;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-inline .nav-link {
+    color:rgb(75, 75, 75);
+}
+
+.form-inline .nav-link:hover {
+    color: #ff5555;
 }
 
 /*
@@ -48,13 +74,7 @@ main {
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 3rem 0;
-
-}
-
-main section {
-    width: 100%;
-    display: flex;
+    padding: 0;
 }
 
 section h3 i {
@@ -145,6 +165,10 @@ section a i {
     background-position: top center;
     background-color: #f7f7f7;
     box-sizing: initial;
+}
+
+.portfolio-caption a {
+    text-decoration: none;
 }
 
 .grid-item-1 {
@@ -251,7 +275,7 @@ form {
 
 footer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 footer p {
@@ -297,5 +321,11 @@ footer p {
 @media (max-width: 1199px) {
     .grid-item {
         padding: 0 !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .form-inline {
+        width: 100%;
     }
 }
