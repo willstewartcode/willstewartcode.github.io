@@ -255,7 +255,7 @@ section a i {
     color: white;
 }
 
-input[type=text], input[type=email], select, #message {
+input[type=text], input[type=email], select, #emailmessage {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
