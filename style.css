@@ -24,7 +24,6 @@ h3, h4 {
 }
 
 section {
-    width: 100%;
     display: flex;
     padding: 7rem 0 !important;
 }
@@ -101,8 +100,12 @@ section a i {
     /* border: 2px solid green; */
 }
 
+#introduction .row {
+    justify-content: center;
+}
+
 #profile-photo-wrapper {
-    padding: 0;
+    padding: 20px;
     /* border: 2px solid red; */
 }
 
@@ -114,15 +117,25 @@ section a i {
 }
 
 #intro-text {
-    padding-right: 0;
-    padding-left: 2rem;
+    padding: 20px;
     width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     /* border: 2px solid blue; */
 }
 
 #intro-text h2 {
     font-weight: bold;
     font-size: 2.5rem;
+}
+
+#intro-text h2, #intro-text p {
+    width: fit-content;
+}
+
+#intro-text a {
+    padding-top: 1rem;
 }
 
 /*
@@ -288,25 +301,6 @@ footer p {
     Media queries
 */
 
-@media (max-width: 1072px) {
-    #introduction {
-        flex-direction: column;
-    }
-
-    #intro-text {
-        padding-left: 0;
-        padding-top: 2rem;
-        text-align: center;
-    }
-    
-}
-
-@media (max-width: 991px) {
-    #profile-photo-wrapper {
-        max-width: 40%;
-    }
-}
-
 @media (max-width: 1399px) {
     .grid-item-2 {
         padding-right: 0 !important;
@@ -319,6 +313,11 @@ footer p {
 }
 
 @media (max-width: 1199px) {
+    #intro-text {
+        text-align: center;
+        align-items: center;
+    }
+    
     .grid-item {
         padding: 0 !important;
     }
