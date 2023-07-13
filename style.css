@@ -25,13 +25,15 @@ h3, h4 {
 
 section {
     display: flex;
+    width: 100%;
     padding: 7rem 0 !important;
 }
 
 hr {
     border: 1px solid #d6d6d6;
-    width: 100%;
+    width: 50%;
     border-radius: 2px;
+    padding: 0 15px;
     margin: 0 !important;
 }
 
@@ -73,7 +75,7 @@ main {
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 0;
+    /* border: 1px solid hotpink; */
 }
 
 section h3 i {
@@ -151,8 +153,6 @@ section a i {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 100%;
-    padding: 0;
     margin-bottom: 0;
 }
 
@@ -170,14 +170,17 @@ section a i {
 */
 
 .portfolio-item {
-    padding: 0 !important;
-    height: 400px;
-    box-sizing: border-box;
-    border: 2px solid #f7f7f7;
+    /* border: 2px solid hotpink; */
+    height: 500px;
     background-size: cover;
-    background-position: top center;
-    background-color: #f7f7f7;
-    box-sizing: initial;
+    background-repeat: no-repeat;
+    background-origin: content-box !important;
+    overflow: hidden;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    background-repeat: no-repeat;
 }
 
 .portfolio-caption a {
@@ -226,7 +229,6 @@ section a i {
 
 .portfolio-caption {
     margin-bottom: 4rem;
-    padding: 0;
 }
 
 .portfolio-caption h3 {
@@ -253,23 +255,16 @@ section a i {
     color: white;
 }
 
-#about p {
-    padding: 0;
-}
-
-input[type=text], input[type=email], select, textarea {
+input[type=text], input[type=email], select, #message {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
 }
   
-input[type=submit] {
-    background-color: #f7f7f7;
+button[type=submit] {
     color: #ff5555;
     padding: 12px 20px;
     border: none;
@@ -277,13 +272,14 @@ input[type=submit] {
     cursor: pointer;
 }
   
-input[type=submit]:hover {
+button[type=submit]:hover {
     background-color: #ff5555;
     color: white;
 }
 
-form {
-    padding: 0 !important;
+.invalid-feedback {
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 footer {
