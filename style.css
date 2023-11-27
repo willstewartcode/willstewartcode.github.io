@@ -165,94 +165,17 @@ section a i {
     margin-right: .25rem;
 }
 
-/* 
-    Portfolio grid
-*/
-
-.portfolio-item {
-    /* border: 2px solid hotpink; */
-    height: 500px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-origin: content-box !important;
+.card a {
     overflow: hidden;
 }
 
-.portfolio-item img {
-    max-width: 100%;
-    background-repeat: no-repeat;
+.card-img-top {
+    transition: transform 150ms;
 }
 
-.portfolio-caption a {
-    text-decoration: none;
-}
-
-.grid-item-1 {
-    padding-left: 0 !important;
-}
-
-.grid-item-3 {
-    padding-right: 0 !important;
-}
-
-#last-portfolio-item {
-    margin-bottom: 0 !important;
-}
-
-/*
-    Portfolio images
-*/
-
-#stewart-construction {
-    background-image: url(images/stewart-construction.png);
-}
-
-#wordpress-custom {
-    background-image: url(images/stewart_will_assignment5.jpg);
-}
-
-#rectangle-calculator {
-    background-image: url(images/rectangle-calculator.png);
-}
-
-#olympic-judging-calculator {
-    background-image: url(images/olympic-judging-calculator.png);
-}
-
-#point-of-sale-system {
-    background-image: url(images/point-of-sale-system.png);
-}
-
-#personal-homepage {
-    background-image: url(images/personal-homepage.png);
-}
-
-.portfolio-caption {
-    margin-bottom: 4rem;
-}
-
-.portfolio-caption h3 {
-    margin: 1rem auto;
-}
-
-.portfolio-caption p {
-    margin-bottom: 0;
-}
-
-.portfolio-caption a {
-    background-color: #f7f7f7;
-    outline: none;
-    border: 0;
-    padding: .5rem 1rem;
-    border-radius: 30px;
-    transition: background-color .2s;
-    display: inline-block;
-    margin-right: .5rem;
-}
-
-.portfolio-caption a:hover {
-    background-color: #ff5555;
-    color: white;
+.card-img-top:hover {
+    transform: scale(1.2);
+    transition: transform 150ms;
 }
 
 input[type=text], input[type=email], select, #emailmessage {
