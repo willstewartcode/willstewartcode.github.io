@@ -51,18 +51,16 @@ hr {
     width: fit-content;
 }
 
-.form-inline {
-    width: fit-content;
-    justify-content: center;
-    text-align: center;
+#sociallinks {
+    display: flex;
 }
 
-.form-inline .nav-link {
-    color:rgb(75, 75, 75);
-}
-
-.form-inline .nav-link:hover {
+#sociallinks a:hover {
     color: #ff5555;
+}
+
+.fa-linkedin {
+    margin-left: .5rem;
 }
 
 /*
