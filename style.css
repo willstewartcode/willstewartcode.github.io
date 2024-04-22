@@ -39,16 +39,6 @@ hr {
     margin-right: .5rem;
 }
 
-.primary-nav-links {
-    justify-content: center;
-    text-align: center;
-    width: fit-content;
-}
-
-#sociallinks {
-    display: flex;
-}
-
 #sociallinks a:hover {
     color: #ff5555;
 }
