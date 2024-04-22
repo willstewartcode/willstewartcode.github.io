@@ -1,7 +1,6 @@
 /*
-    General
+    GENERAL
 */
-
 body {
     background-color: white;
     font-family: 'Barlow', sans-serif;
@@ -14,11 +13,13 @@ a {
     color: white;
 }
 
-h1, h3 {
+h1,
+h3 {
     font-weight: bold;
 }
 
-h3, h4 {
+h3,
+h4 {
     margin-bottom: 2rem;
     padding: 0 !important;
 }
@@ -38,9 +39,8 @@ hr {
 }
 
 /*
-    Navigation
+    NAVBAR
 */
-
 .navbar-brand img {
     margin-right: .5rem;
 }
@@ -64,9 +64,8 @@ hr {
 }
 
 /*
-    Main, sections
+    SECTIONS
 */
-
 main {
     display: flex;
     flex-flow: column wrap;
@@ -90,9 +89,8 @@ section a i {
 }
 
 /*
-    Intro section
+    INTRO SECTION
 */
-
 #introduction {
     flex-flow: row wrap;
     align-items: center;
@@ -130,7 +128,8 @@ section a i {
     font-size: 2.5rem;
 }
 
-#intro-text h2, #intro-text p {
+#intro-text h2,
+#intro-text p {
     width: fit-content;
 }
 
@@ -139,9 +138,8 @@ section a i {
 }
 
 /*
-    Skills
+    SKILLS SECTION
 */
-
 #skills {
     width: 100%;
 }
@@ -188,9 +186,8 @@ footer p {
 }
 
 /*
-    Media queries
+    MEDIA QUERIES
 */
-
 @media (max-width: 1199px) {
     #intro-text {
         text-align: center;
