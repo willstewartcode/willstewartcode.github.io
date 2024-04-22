@@ -191,30 +191,9 @@ footer p {
     Media queries
 */
 
-@media (max-width: 1399px) {
-    .grid-item-2 {
-        padding-right: 0 !important;
-    }
-
-    .grid-item-3 {
-        padding-left: 0;
-        padding-right: calc(var(--bs-gutter-x) * .5) !important;
-    }
-}
-
 @media (max-width: 1199px) {
     #intro-text {
         text-align: center;
         align-items: center;
-    }
-    
-    .grid-item {
-        padding: 0 !important;
-    }
-}
-
-@media (max-width: 991px) {
-    .form-inline {
-        width: 100%;
     }
 }
