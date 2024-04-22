@@ -53,10 +53,6 @@ hr {
     color: #ff5555;
 }
 
-.fa-linkedin {
-    margin-left: .5rem;
-}
-
 /*
     SECTIONS
 */
@@ -176,15 +172,15 @@ section a i {
     transition: transform 150ms;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
+/* 
+    ICONS
+*/
+.fa-brands {
+    font-size: 1.25rem;
 }
 
-footer p {
-    color: rgb(124, 124, 124);
-    padding-bottom: 3rem;
-    margin: 0;
+.fa-brands:hover {
+    color: #ff5555;
 }
 
 /*

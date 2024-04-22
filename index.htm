@@ -32,7 +32,7 @@
    -->
    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-         <a class="navbar-brand" href="#">
+         <a class="navbar-brand" href="index.htm">
             <img src="images/logo.svg" width="30" height="30" class="d-inline-block align-text-top">
             Will Stewart
          </a>
@@ -61,12 +61,24 @@
                   <a class="nav-link" href="#contact">Contact</a>
                </li>
             </ul>
-            <span class="navbar-text" id="sociallinks">
+            <!-- <span class="navbar-text" id="sociallinks">
                <a class="nav-item nav-link" href="https://github.com/willstewartcode" target="_blank"><i
                      class="fa-brands fa-github"></i></a>
                <a class="nav-item nav-link" href="https://linkedin.com/in/willcstewart" target="_blank"><i
                      class="fa-brands fa-linkedin"></i></a>
-            </span>
+            </span> -->
+            <ul class="navbar-nav d-flex flex-row">
+               <li class="nav-item me-3 me-lg-0">
+                   <a class="nav-link" href="https://github.com/willstewartcode">
+                     <i class="fa-brands fa-github"></i>
+                   </a>
+               </li>
+               <li class="nav-item me-3 me-lg-0">
+                  <a class="nav-link" href="https://linkedin.com/in/willcstewart">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+              </li>
+            </ul>
          </div>
       </div>
    </nav>
@@ -335,9 +347,28 @@
             </div>
          </section>
       </main>
+   </div>
 
-      <footer class="col-md-12">
-         <p>Copyright &copy; 2023 Will Stewart</p>
+   <!-- 
+      FOOTER 
+   -->
+   <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+         <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+               <img src="images/logo.svg" width="30" height="30">
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Will Stewart</span>
+         </div>
+
+         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="https://github.com/willstewartcode" target="_blank">
+               <i class="fa-brands fa-github"></i>
+            </a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://linkedin.com/in/willcstewart" target="_blank">
+               <i class="fa-brands fa-linkedin"></i>
+            </a></li>
+         </ul>
       </footer>
    </div>
 
