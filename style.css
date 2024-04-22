@@ -29,7 +29,7 @@ hr {
     width: 50%;
     border-radius: 2px;
     padding: 0 15px;
-    margin: 0 !important;
+    margin: auto;
 }
 
 /*
@@ -71,7 +71,7 @@ section {
     padding: 4rem 0 !important;
 }
 
-section h3 i {
+section h3 i, section h5 i {
     color: #ff5555;
 }
 
@@ -87,17 +87,6 @@ section a i {
 /*
     INTRO SECTION
 */
-#introduction {
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    /* border: 2px solid green; */
-    padding-top: 0 !important;
-}
-
-#introduction .row {
-    justify-content: center;
-}
 
 #profile-photo-wrapper {
     padding: 20px;
@@ -111,51 +100,16 @@ section a i {
     box-shadow: 0px 2px 11.64px 0.36px rgba(0, 0, 0, 0.15);
 }
 
-#intro-text {
-    padding: 20px;
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* border: 2px solid blue; */
-}
-
-#intro-text h2 {
-    font-weight: bold;
-    font-size: 2.5rem;
-}
-
-#intro-text h2,
-#intro-text p {
-    width: fit-content;
-}
-
-#intro-text a {
-    padding-top: 1rem;
-}
-
-/*
-    SKILLS SECTION
-*/
-#skills {
-    width: 100%;
-}
-
-#skills ul {
+#skills-list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin-bottom: 0;
+    padding-left: 0;
 }
 
-#skills li {
+#skills-list li {
     margin-right: 1rem;
-    font-size: 1.2rem;
-}
-
-#skills li i {
-    margin-right: .25rem;
 }
 
 .card a {
@@ -174,9 +128,6 @@ section a i {
 /* 
     ICONS
 */
-.fa-brands {
-    font-size: 1.25rem;
-}
 
 /*
     MEDIA QUERIES
