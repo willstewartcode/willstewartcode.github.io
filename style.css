@@ -24,12 +24,6 @@ h4 {
     padding: 0 !important;
 }
 
-section {
-    display: flex;
-    width: 100%;
-    padding: 7rem 0 !important;
-}
-
 hr {
     border: 1px solid #d6d6d6;
     width: 50%;
@@ -72,7 +66,14 @@ main {
     justify-content: center;
     align-items: center;
     margin: auto;
+    padding: 4rem !important;
     /* border: 1px solid hotpink; */
+}
+
+section {
+    display: flex;
+    width: 100%;
+    padding: 4rem 0 !important;
 }
 
 section h3 i {
@@ -96,6 +97,7 @@ section a i {
     align-items: center;
     justify-content: center;
     /* border: 2px solid green; */
+    padding-top: 0 !important;
 }
 
 #introduction .row {
