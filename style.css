@@ -125,9 +125,12 @@ section a i {
     transition: transform 150ms;
 }
 
-/* 
-    ICONS
-*/
+#constructionbanner {
+    text-align: center;
+    background-color: lightgray;
+    color: gray;
+    padding-top: 1rem;
+}
 
 /*
     MEDIA QUERIES
