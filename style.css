@@ -112,24 +112,15 @@ section a i {
     margin-right: 1rem;
 }
 
-.card a {
-    overflow: hidden;
-}
-
-.card-img-top {
-    transition: transform 150ms;
-}
-
-.card-img-top:hover {
-    transform: scale(1.2);
-    transition: transform 150ms;
-}
-
 #constructionbanner {
     text-align: center;
     background-color: lightgray;
     color: gray;
     padding-top: 1rem;
+}
+
+#logodesign iframe {
+    width: 100%;
 }
 
 /*
