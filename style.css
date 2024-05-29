@@ -123,6 +123,10 @@ section a i {
     width: 100%;
 }
 
+.section-heading {
+    text-align: center;
+}
+
 /*
     MEDIA QUERIES
 */
