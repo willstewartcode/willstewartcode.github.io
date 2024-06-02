@@ -1,10 +1,22 @@
 /*
     GENERAL
 */
+:root {
+    /* background */
+    --BACKGROUND-GRAY: #121212;
+    --BACKGROUND-ALT: #212529;
+    /* general content */
+    --LIGHT-GRAY: #ccced1;
+    /* header, footer */
+    --BS-LIGHT-GRAY: #9fa2a4;
+    /* accent */
+    --PRIMARY-RED: #F14156;
+}
+
 body {
-    background-color: white;
+    background-color: var(--BACKGROUND-ALT);
     font-family: 'Barlow', sans-serif;
-    color: rgb(75, 75, 75);
+    color: var(--LIGHT-GRAY);
     font-size: 1.1rem;
 }
 
@@ -35,7 +47,6 @@ hr {
 /*
     NAVBAR
 */
-
 .sm-icons {
     flex-direction: row;
 }
@@ -49,7 +60,7 @@ hr {
 }
 
 #sociallinks a:hover {
-    color: #ff5555;
+    color: var(--PRIMARY-RED);
 }
 
 /*
@@ -71,17 +82,20 @@ section {
     padding: 4rem 0 !important;
 }
 
-section h3 i, section h5 i {
-    color: #ff5555;
-}
-
+/* headings */
+section h3 i,
+section h5 i,
 section a {
-    color: #ff5555;
+    color: var(--PRIMARY-RED);
 }
 
 section a i {
     font-size: .8rem;
     margin-left: .2rem;
+}
+
+.text-bg-dark {
+    background-color: rgba(255, 255, 255, .04) !important;
 }
 
 /*
@@ -95,9 +109,8 @@ section a i {
 
 #profile-photo-wrapper img {
     width: 100%;
-    border: 5px solid white;
     border-radius: 50%;
-    box-shadow: 0px 2px 11.64px 0.36px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 11.64px 0.36px rgba(0, 0, 0, 0.25);
 }
 
 #skills-list {
@@ -119,12 +132,13 @@ section a i {
     padding-top: 1rem;
 }
 
-#logodesign iframe {
-    width: 100%;
-}
-
 .section-heading {
     text-align: center;
+}
+
+.footer-dark,
+.footer-dark .fa-brands {
+    color: var(--BS-LIGHT-GRAY);
 }
 
 /*
