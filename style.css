@@ -102,15 +102,24 @@ section a i {
     INTRO SECTION
 */
 
-#profile-photo-wrapper {
-    padding: 20px;
-    /* border: 2px solid red; */
+#intro-text {
+    text-align: center;
+    margin: 2rem auto;
 }
 
-#profile-photo-wrapper img {
-    width: 100%;
+#intro h1 {
+    font-size: 2.4rem;
+}
+
+.intro-desc {
+    font-size: 1.5rem;
+}
+
+#profilepic {
     border-radius: 50%;
-    box-shadow: 0px 2px 11.64px 0.36px rgba(0, 0, 0, 0.25);
+    max-width: 300px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2);
+
 }
 
 #skills-list {
@@ -122,18 +131,28 @@ section a i {
 }
 
 #skills-list li {
-    margin-right: 1rem;
+    display: flex;
+    align-items: center;
 }
 
-#constructionbanner {
-    text-align: center;
-    background-color: lightgray;
-    color: gray;
-    padding-top: 1rem;
+#skills-list i,
+#skills-list span {
+    margin: 0 .5rem;
+}
+
+/* icon */
+#skills-list i {
+    font-size: 2rem;
+}
+
+/* text */
+#skills-list span {
+    font-size: 1.2rem;
 }
 
 .section-heading {
     text-align: center;
+    font-size: 2.4rem;
 }
 
 .footer-dark,
@@ -149,6 +168,10 @@ section a i {
 .card:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
+
+
+
+
 
 /*
     MEDIA QUERIES
