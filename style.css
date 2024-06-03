@@ -152,7 +152,22 @@ section a i {
 
 .section-heading {
     text-align: center;
-    font-size: 2.4rem;
+}
+
+.section-heading::before,
+.section-heading::after {
+    color: var(--PRIMARY-RED);
+    font-weight: 400;
+}
+
+.section-heading::before {
+    content: '< ';
+    margin-right: .5rem;
+}
+
+.section-heading::after {
+    content: ' >';
+    margin-left: .5rem;
 }
 
 .footer-dark,
