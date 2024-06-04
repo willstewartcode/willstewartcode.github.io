@@ -11,6 +11,7 @@
     --BS-LIGHT-GRAY: #9fa2a4;
     /* accent */
     --PRIMARY-RED: #F14156;
+    --HOVER-RED: #F78D99;
 }
 
 body {
@@ -33,7 +34,6 @@ h3 {
 h3,
 h4 {
     margin-bottom: 2rem;
-    padding: 0 !important;
 }
 
 hr {
@@ -83,10 +83,12 @@ section {
 }
 
 /* headings */
-section h3 i,
-section h5 i,
-section a {
+a {
     color: var(--PRIMARY-RED);
+}
+
+a:hover {
+    color: var(--HOVER-RED);
 }
 
 section a i {
@@ -182,6 +184,10 @@ section a i {
 
 .card:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-link i {
+    font-size: 1rem;
 }
 
 
