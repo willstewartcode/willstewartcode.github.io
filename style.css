@@ -77,7 +77,7 @@ hr {
 
 section {
     box-sizing: border-box;
-    min-height: 100vh;
+    min-height: 100svh;
     padding-top: 90px;
     padding-bottom: 90px;
 }
@@ -269,5 +269,32 @@ section a i {
 @media(prefers-reduced-motion) {
     .hidden {
         transition: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-brand {
+        margin: auto;
+        transform: translateX(28px);
+    }
+
+    .navbar-brand img {
+        margin: auto;
+    }
+
+    .navbar-brand span {
+        display: none;
+    }
+
+    .sm-icons {
+        width: fit-content;
+        margin: auto;
+    }
+    
+    nav {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
