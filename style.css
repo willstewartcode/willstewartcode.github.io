@@ -124,6 +124,7 @@ section a i {
     flex-wrap: wrap;
     justify-content: flex-start;
     padding-left: 0;
+    gap: 1rem;
 }
 
 #skills-list li {
@@ -131,9 +132,8 @@ section a i {
     align-items: center;
 }
 
-#skills-list i,
-#skills-list span {
-    margin: 0 .5rem;
+#skills-list i {
+    margin-right: 1rem;
 }
 
 /* icon */
