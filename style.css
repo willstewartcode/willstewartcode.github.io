@@ -76,8 +76,10 @@ hr {
 */
 
 section {
+    box-sizing: border-box;
     min-height: 100vh;
-    padding: 90px 0 !important;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 section a i {
@@ -113,7 +115,7 @@ section a i {
 .profile-pic {
     border-radius: 50%;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2);
-    max-width: 300px;
+    max-width: 250px;
 }
 
 #skills-list {
