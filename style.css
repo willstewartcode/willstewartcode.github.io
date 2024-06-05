@@ -76,8 +76,7 @@ hr {
 */
 
 section {
-    display: flex;
-    width: 100%;
+    min-height: 100vh;
     padding: 90px 0 !important;
 }
 
@@ -105,6 +104,10 @@ section a i {
 
 .intro-desc {
     font-size: 1.5rem;
+}
+
+#landing-logo {
+    max-width: 150px;
 }
 
 .profile-pic {
@@ -168,7 +171,7 @@ section a i {
 
 .card {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .card:hover {
@@ -179,6 +182,59 @@ section a i {
     font-size: 1rem;
 }
 
+/* On scroll animations */
+.hidden {
+    opacity: 0;
+    transform: translate(-7%);
+    filter: blur(2px);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate(0);
+}
+
+/* Delays animation on each list item */
+.section-item:nth-child(2),
+.card-wrapper:nth-child(1) {
+    transition-delay: 200ms;
+}
+
+.section-item:nth-child(3),
+.card-wrapper:nth-child(2) {
+    transition-delay: 300ms;
+}
+
+#skills-list li:nth-child(1),
+.card-wrapper:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+#skills-list li:nth-child(2),
+.card-wrapper:nth-child(4) {
+    transition-delay: 500ms;
+}
+
+#skills-list li:nth-child(3),
+.card-wrapper:nth-child(5) {
+    transition-delay: 600ms;
+}
+
+#skills-list li:nth-child(4),
+.card-wrapper:nth-child(6) {
+    transition-delay: 700ms;
+}
+
+#skills-list li:nth-child(5) {
+    transition-delay: 800ms;
+}
+
+#skills-list li:nth-child(6) {
+    transition-delay: 900ms;
+}
+
 
 /*
     MEDIA QUERIES
@@ -187,5 +243,11 @@ section a i {
     #intro-text {
         text-align: center;
         align-items: center;
+    }
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
     }
 }
