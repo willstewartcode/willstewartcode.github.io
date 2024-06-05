@@ -77,7 +77,7 @@ hr {
 
 section {
     box-sizing: border-box;
-    min-height: 100svh;
+    min-height: calc(100svh - 50px);
     padding-top: 90px;
     padding-bottom: 90px;
 }
