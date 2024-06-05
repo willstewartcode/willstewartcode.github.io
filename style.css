@@ -25,7 +25,11 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: var(--LIGHT-BLUE);
+}
+
+a:hover {
+    color: var(--BLUE-HOVER);
 }
 
 h1,
@@ -75,15 +79,6 @@ section {
     display: flex;
     width: 100%;
     padding: 90px 0 !important;
-}
-
-/* headings */
-a {
-    color: var(--LIGHT-BLUE);
-}
-
-a:hover {
-    color: var(--BLUE-HOVER);
 }
 
 section a i {
