@@ -18,6 +18,10 @@
 
 body {
     background-color: var(--BACKGROUND-ALT);
+    background-color: #212529;
+    opacity: 1;
+    background-image: radial-gradient(rgba(72,202,228,.25) 0.9500000000000001px, #212529 0.9500000000000001px);
+    background-size: 19px 19px;
     font-family: 'Barlow', sans-serif;
     color: var(--LIGHT-GRAY);
     font-size: 1.2rem;
@@ -114,7 +118,7 @@ section a i {
 
 .profile-pic {
     border-radius: 50%;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2);
     max-width: 250px;
 }
 
@@ -172,12 +176,12 @@ section a i {
 }
 
 .card {
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
 .card:hover {
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .card-link i {
@@ -187,7 +191,7 @@ section a i {
 /* On scroll animations */
 .hidden {
     opacity: 0;
-    transform: translate(-7%);
+    transform: translateX(-7%);
     filter: blur(2px);
     transition: all 1s;
 }
@@ -229,6 +233,10 @@ section a i {
 
 #skills-list li:nth-child(6) {
     transition-delay: 900ms;
+}
+
+#skills-list li:nth-child(7) {
+    transition-delay: 1s;
 }
 
 .card-wrapper:nth-child(1) {
@@ -290,7 +298,7 @@ section a i {
         width: fit-content;
         margin: auto;
     }
-    
+
     nav {
         text-align: center;
         display: flex;
