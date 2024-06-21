@@ -18,3 +18,14 @@ const hiddenElements = document.querySelectorAll('.hidden');
 
 // uses IntersectionObserver to loop through "hidden" elements
 hiddenElements.forEach((el) => observer.observe(el));
+
+const navLinks = document.querySelectorAll('.nav-item');
+const menuToggle = document.getElementById('navbarSupportedContent');
+const bsCollapse = bootstrap.Collapse.getOrCreateInstance(menuToggle, {toggle: false});
+navLinks.forEach((l) => {
+    if (menuToggle.classList.contains('show')) {  // only fire on mobile
+        l.addEventListener('click', () => { 
+            bsCollapse.toggle() 
+        })
+    }
+})

@@ -18,10 +18,6 @@
 
 body {
     background-color: var(--BACKGROUND-ALT);
-    background-color: #212529;
-    opacity: 1;
-    background-image: radial-gradient(rgba(72,202,228,.25) 0.9500000000000001px, #212529 0.9500000000000001px);
-    background-size: 19px 19px;
     font-family: 'Barlow', sans-serif;
     color: var(--LIGHT-GRAY);
     font-size: 1.2rem;
