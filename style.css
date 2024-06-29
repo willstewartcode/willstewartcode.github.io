@@ -55,20 +55,22 @@ hr {
 */
 .sm-icons {
     flex-direction: row;
+    gap: 20px;
 }
 
-.sm-icons .nav-link {
-    padding-right: 1em;
-}
-
-.navbar-brand img {
-    margin-right: .5rem;
+.nav-link {
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .nav-link:hover,
 .footer-dark .fa-brands:hover {
     color: var(--LIGHT-BLUE);
     transition: 200ms;
+}
+
+#offcanvasDarkNavbar {
+    background-color: var(--BACKGROUND-ALT) !important;
 }
 
 /*
@@ -273,32 +275,5 @@ section a i {
 @media(prefers-reduced-motion) {
     .hidden {
         transition: none;
-    }
-}
-
-@media (max-width: 991px) {
-    .navbar-brand {
-        margin: auto;
-        transform: translateX(28px);
-    }
-
-    .navbar-brand img {
-        margin: auto;
-    }
-
-    .navbar-brand span {
-        display: none;
-    }
-
-    .sm-icons {
-        width: fit-content;
-        margin: auto;
-    }
-
-    nav {
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 }

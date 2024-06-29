@@ -8,6 +8,7 @@ const observer = new IntersectionObserver((entries) => {
         if (entry.isIntersecting) {
             entry.target.classList.add('show');
         } else {
+            // remove this to only play animations once
             entry.target.classList.remove('show');
         }
     });
