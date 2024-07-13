@@ -21,10 +21,10 @@ const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
 // Hides offcanvas navbar on link click
-const navLinks = document.querySelectorAll('.nav-item');
-const menuToggle = document.querySelector('#offcanvasNavbar');
-navLinks.forEach((elem) => {
-  elem.addEventListener('click', () => {
-    $("button.navbar-toggler").click();
-  });
-});
+// const navLinks = document.querySelectorAll('.nav-item');
+// const menuToggle = document.querySelector('#offcanvasNavbar');
+// navLinks.forEach((elem) => {
+//   elem.addEventListener('click', () => {
+//     $("button.navbar-toggler").click();
+//   });
+// });

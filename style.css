@@ -1,39 +1,39 @@
 /*
     GENERAL
 */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 :root {
-    /* background */
     --BACKGROUND-GRAY: #121212;
     --BACKGROUND-ALT: #212529;
-    /* general content */
     --LIGHT-GRAY: #ccced1;
-    /* header, footer */
     --BS-LIGHT-GRAY: #9fa2a4;
-    /* accent */
     --PRIMARY-RED: #F14156;
     --HOVER-RED: #F78D99;
     --LIGHT-BLUE: #48cae4;
     --BLUE-HOVER: #ADE8F4;
+
+    --BASE-BLUE: #2a7de1;
+    --SOFT-BLUE: #65b2e8;
+    --BODY-DARK: #5e5977;
+    --SEPARATOR-GRAY: #d6d6d6;
+    --G-GRAY-DARK: #f0f4f9;
+    --G-GRAY-LIGHT: #f8fafd;
 }
 
 body {
-    background-color: var(--BACKGROUND-ALT);
     font-family: 'Barlow', sans-serif;
-    color: var(--LIGHT-GRAY);
-    font-size: 1.2rem;
-}
-
-a {
-    text-decoration: none;
-    color: var(--LIGHT-BLUE);
-}
-
-a:hover {
-    color: var(--BLUE-HOVER);
+    color: var(--BODY-DARK);
 }
 
 h1,
 h3 {
+    color: var(--BODY-DARK);
+}
+
+h1,
+h3,
+h4 {
     font-weight: bold;
 }
 
@@ -43,45 +43,77 @@ h4 {
 }
 
 hr {
-    border: 1px solid #d6d6d6;
+    border: 1px solid var(--SEPARATOR-GRAY);
     width: 50%;
     border-radius: 2px;
     padding: 0 15px;
     margin: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*
     NAVBAR
 */
+.navbar,
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar {
+    background-color: var(--BASE-BLUE);
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.offcanvas {
+    background-color: var(--BASE-BLUE);
+}
+
+.navbar-brand {
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand svg {
+    max-width: 40px;
+    height: fit-content;
+    margin-right: 1rem;
+}
+
+.nav-link {
+    color: white;
+}
+
 .sm-icons {
     flex-direction: row;
     gap: 20px;
+    font-size: 1rem;
+}
+
+.sm-icons i {
+    max-height: fit-content;
+}
+
+.sm-icons a {
+    padding: 0 !important;
 }
 
 .nav-link {
     text-align: center;
-    font-size: 1.5rem;
-}
-
-.nav-link:hover,
-.footer-dark .fa-brands:hover {
-    color: var(--LIGHT-BLUE);
-    transition: 200ms;
-}
-
-#offcanvasDarkNavbar {
-    background-color: var(--BACKGROUND-ALT) !important;
 }
 
 /*
     SECTIONS
 */
-
 section {
     box-sizing: border-box;
     min-height: calc(100svh - 50px);
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 section a i {
@@ -89,14 +121,9 @@ section a i {
     margin-left: .2rem;
 }
 
-.text-bg-dark {
-    background-color: rgba(255, 255, 255, .04) !important;
-}
-
 /*
     INTRO SECTION
 */
-
 #intro-text {
     text-align: center;
     margin: 2rem auto;
@@ -120,13 +147,18 @@ section a i {
     max-width: 250px;
 }
 
-#skills-list {
+#skills-list,
+.card-list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     padding-left: 0;
-    gap: 1rem;
+    color: var(--BODY-DARK);
+}
+
+#skills-list {
+    gap: 1.5rem;
 }
 
 #skills-list li {
@@ -136,14 +168,9 @@ section a i {
 
 #skills-list i {
     margin-right: 1rem;
+    font-size: 1.5rem;
 }
 
-/* icon */
-#skills-list i {
-    font-size: 2rem;
-}
-
-/* text */
 #skills-list span {
     font-size: 1.2rem;
 }
@@ -152,9 +179,14 @@ section a i {
     text-align: center;
 }
 
+.section-heading,
+.card-title {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
 .section-heading::before,
 .section-heading::after {
-    color: var(--LIGHT-BLUE);
+    color: var(--SOFT-BLUE);
     font-weight: 400;
 }
 
@@ -173,17 +205,76 @@ section a i {
     color: var(--BS-LIGHT-GRAY);
 }
 
+/* cards */
 .card {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    border: none;
 }
 
-.card:hover {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+.card-body {
+    border-top: 2px solid rgba(214, 214, 214, .3);
+    border-bottom: 2px solid rgba(214, 214, 214, .3);
+    border-radius: 2px;
+    padding: 2rem 0 2rem 0;
+}
+
+.card-title {
+    font-size: 2rem;
+}
+
+.card-title a {
+    color: var(--BASE-BLUE);
+    transition: color 180ms;
+}
+
+.card-title a:hover {
+    color: var(--SOFT-BLUE);
 }
 
 .card-link i {
     font-size: 1rem;
+}
+
+.card-list {
+    gap: 1rem;
+    font-size: 1.1rem;
+}
+
+.card-list i {
+    margin-right: .5rem;
+}
+
+.card-buttons {
+    display: flex;
+    gap: .5rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.btn-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    border-radius: 30px;
+    padding: 8px 16px;
+    background-color: var(--G-GRAY-DARK);
+    border: none;
+    color: var(--BASE-BLUE);
+}
+
+.btn-primary i,
+.btn-primary span {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.btn-primary:hover {
+    background-color: var(--BASE-BLUE);
+}
+
+.card-img-overlay  {
+    background-color: rgba(0, 0, 0, 0.75);
+    height: fit-content;
+    margin-top: auto;
 }
 
 /* On scroll animations */
@@ -275,5 +366,11 @@ section a i {
 @media(prefers-reduced-motion) {
     .hidden {
         transition: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .sm-icons {
+        margin-top: 2rem;
     }
 }
