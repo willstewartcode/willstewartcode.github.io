@@ -246,10 +246,10 @@ section a i {
 .card-buttons {
     display: flex;
     gap: .5rem;
-    font-family: 'Bebas Neue', sans-serif;
 }
 
 .btn-primary {
+    font-family: 'Bebas Neue', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
