@@ -1,67 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="1000"
-   height="866.04"
-   viewBox="0 0 1000 866.04"
-   version="1.1"
-   id="svg10"
-   sodipodi:docname="logo.svg"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs14" />
-  <sodipodi:namedview
-     id="namedview12"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="0.372962"
-     inkscape:cx="1593.9962"
-     inkscape:cy="463.85423"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg10"
-     inkscape:showpageshadow="2"
-     inkscape:deskcolor="#d1d1d1" />
-  <g
-     id="g1093">
-    <polygon
-       points="200 346.41 266.66 461.88 200 692.82 0 346.42 0.01 346.41 0 346.41 200 0 266.66 230.94 200 346.41"
-       id="polygon2"
-       inkscape:export-filename="D:\Libraries\Desktop\Personal Branding\logo_black_500px.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48"
-       style="fill:#2a7de1" />
-    <polygon
-       points="1000 346.41 1000 346.42 800 692.82 733.34 461.88 800 346.41 733.34 230.94 800 0 1000 346.41 1000 346.41"
-       id="polygon4"
-       inkscape:export-filename="D:\Libraries\Desktop\Personal Branding\logo_black_500px.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48"
-       style="fill:#2a7de1" />
-    <polygon
-       points="600 346.42 500 519.63 300 866.04 200 692.82 300 519.62 500 173.22 600 346.42"
-       id="polygon6"
-       inkscape:export-filename="D:\Libraries\Desktop\Personal Branding\logo_black_500px.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48"
-       style="fill:#2a7de1" />
-    <polygon
-       points="800 692.82 700 866.04 533.34 577.36 600 346.42 700 519.62 800 692.82"
-       id="polygon8"
-       inkscape:export-filename="D:\Libraries\Desktop\Personal Branding\logo_black_500px.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48"
-       style="fill:#2a7de1" />
-  </g>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1000 867" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g>
+        <path id="polygon2" d="M200,346.41L266.66,461.88L200,692.82L0,346.42L0.01,346.41L0,346.41L200,0L266.66,230.94L200,346.41Z" style="fill:rgb(42,125,225);fill-rule:nonzero;"/>
+        <path id="polygon4" d="M1000,346.41L1000,346.42L800,692.82L733.34,461.88L800,346.41L733.34,230.94L800,0L1000,346.41Z" style="fill:rgb(42,125,225);fill-rule:nonzero;"/>
+        <path id="polygon6" d="M600,346.42L500,519.63L300,866.04L200,692.82L500,173.22L600,346.42Z" style="fill:rgb(42,125,225);fill-rule:nonzero;"/>
+        <path id="polygon8" d="M800,692.82L700,866.04L533.34,577.36L600,346.42L800,692.82Z" style="fill:rgb(42,125,225);fill-rule:nonzero;"/>
+    </g>
 </svg>

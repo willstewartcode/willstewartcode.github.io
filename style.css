@@ -301,6 +301,10 @@ header {
     margin-top: auto;
 }
 
+#footer-brand svg {
+    max-width: 30px;
+}
+
 /* On scroll animations */
 .hidden {
     opacity: 0;
