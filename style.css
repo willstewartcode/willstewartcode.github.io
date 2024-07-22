@@ -124,6 +124,21 @@ section a i {
 /*
     INTRO SECTION
 */
+header {
+    background-image: url(images/header-background.jpg);
+    background-size: cover;
+}
+
+#intro {
+    height: 100vh;
+}
+
+#intro-text,
+#intro h1 {
+    
+    color: white;
+}
+
 #intro-text {
     text-align: center;
     margin: 2rem auto;
@@ -133,12 +148,13 @@ section a i {
     font-size: 2.4rem;
 }
 
-.intro-desc {
-    font-size: 1.5rem;
+#logo svg {
+    max-width: 120px;
+    height: auto;
 }
 
-#landing-logo {
-    max-width: 120px;
+.intro-desc {
+    font-size: 1.5rem;
 }
 
 .profile-pic {
@@ -154,6 +170,14 @@ section a i {
     flex-wrap: wrap;
     justify-content: flex-start;
     padding-left: 0;
+}
+
+#skills-list {
+    color: white;
+}
+
+.card-list {
+    
     color: var(--BODY-DARK);
 }
 
