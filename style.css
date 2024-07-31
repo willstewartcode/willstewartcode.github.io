@@ -111,7 +111,7 @@ a {
 */
 section {
     box-sizing: border-box;
-    min-height: calc(100svh - 50px);
+    min-height: 100svh;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -127,10 +127,6 @@ section a i {
 header {
     background-image: url(images/header-background.jpg);
     background-size: cover;
-}
-
-#intro {
-    height: 100svh;
 }
 
 #intro-text,
