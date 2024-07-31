@@ -7,10 +7,10 @@ const observer = new IntersectionObserver((entries) => {
         console.log(entry);
         if (entry.isIntersecting) {
             entry.target.classList.add('show');
-        } else {
+        } /* else {
             // remove this to only play animations once
             entry.target.classList.remove('show');
-        }
+        } */
     });
 });
 
