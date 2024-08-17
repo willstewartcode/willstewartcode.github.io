@@ -33,123 +33,86 @@
 </head>
 
 <body>
-   <header>
-      <!-- NAV -->
-      <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
-         <div class="container-fluid">
-            <!-- brand -->
-            <a class="navbar-brand col-lg-3 justify-content-lg-start" href="#">
-               <svg width="100%" height="100%" viewBox="0 0 1000 867" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
-                  style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-                  <g>
-                     <path
-                        d="M200,346.41L266.66,461.88L200,692.82L0,346.42L0.01,346.41L0,346.41L200,0L266.66,230.94L200,346.41Z"
-                        style="fill:white;fill-rule:nonzero;" />
-                     <path
-                        d="M1000,346.41L1000,346.42L800,692.82L733.34,461.88L800,346.41L733.34,230.94L800,0L1000,346.41Z"
-                        style="fill:white;fill-rule:nonzero;" />
-                     <path d="M600,346.42L500,519.63L300,866.04L200,692.82L500,173.22L600,346.42Z"
-                        style="fill:white;fill-rule:nonzero;" />
-                     <path d="M800,692.82L700,866.04L533.34,577.36L600,346.42L800,692.82Z"
-                        style="fill:white;fill-rule:nonzero;" />
-                  </g>
-               </svg>
-            </a>
+   <!-- NAV -->
+   <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="light">
+      <div class="container-fluid">
+         <!-- brand -->
+         <a class="navbar-brand col-lg-3 justify-content-lg-start" href="#">
+            <img src="images/logo-salmon.png" alt="">
+         </a>
 
-            <!-- burger -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-               aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-            </button>
+         <!-- burger -->
+         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
 
-            <!-- side nav -->
-            <div class="offcanvas offcanvas-end col-lg-9
-            " data-bs-scroll="true" tabindex="-1" id="offcanvasNavbar">
-               <div class="offcanvas-header">
-                  <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">offcanvas</h5> -->
-                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                     aria-label="Close"></button>
-               </div>
-               <div class="offcanvas-body">
-                  <ul class="navbar-nav col-lg-8 justify-content-lg-center">
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#webprojects">Web</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#graphicprojects">Graphics</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#photography">Photography</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                     </li>
-                  </ul>
-                  <ul
-                     class="navbar-nav col-lg-4 sm-icons align-items-center justify-content-center justify-content-lg-end">
-                     <li><a class="nav-link" href="https://www.instagram.com/willcstewart" target="_blank"><i
-                              class="fa-brands fa-instagram"></i></a></li>
-                     <li><a class="nav-link" href="https://www.threads.net/@willcstewart" target="_blank"><i
-                              class="fa-brands fa-threads"></i></a></li>
-                     <li><a class="nav-link" href="https://linkedin.com/in/willcstewart" target="_blank"><i
-                              class="fa-brands fa-linkedin-in"></i></a></li>
-                     <li><a class="nav-link" href="https://github.com/willstewartcode" target="_blank"><i
-                              class="fa-brands fa-github"></i></a></li>
-                     <li><a class="nav-link" href="https://www.behance.net/willcstewart" target="_blank"><i
-                              class="fa-brands fa-behance"></i></a></li>
-                  </ul>
-               </div>
+         <!-- side nav -->
+         <div class="offcanvas offcanvas-end col-lg-9
+            " data-bs-scroll="true" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvas-title">
+            <div class="offcanvas-header">
+               <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Will Stewart</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-         </div>
-      </nav>
-
-      <!-- INTRO -->
-      <section id="intro" class="container d-flex flex-column align-items-center justify-content-center">
-         <div class="row section-item hidden" id="logo">
-            <div class="col">
-               <svg width="100%" height="100%" viewBox="0 0 1000 867" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
-                  style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-                  <g>
-                     <path
-                        d="M200,346.41L266.66,461.88L200,692.82L0,346.42L0.01,346.41L0,346.41L200,0L266.66,230.94L200,346.41Z"
-                        style="fill:white;fill-rule:nonzero;" />
-                     <path
-                        d="M1000,346.41L1000,346.42L800,692.82L733.34,461.88L800,346.41L733.34,230.94L800,0L1000,346.41Z"
-                        style="fill:white;fill-rule:nonzero;" />
-                     <path d="M600,346.42L500,519.63L300,866.04L200,692.82L500,173.22L600,346.42Z"
-                        style="fill:white;fill-rule:nonzero;" />
-                     <path d="M800,692.82L700,866.04L533.34,577.36L600,346.42L800,692.82Z"
-                        style="fill:white;fill-rule:nonzero;" />
-                  </g>
-               </svg>
-            </div>
-         </div>
-         <div class="row section-item hidden" id="intro-text">
-            <div class="col">
-               <h1>Hi, I'm Will Stewart.</h1>
-               <p class="intro-desc">I am a frontend web developer and graphic designer.</p>
-            </div>
-         </div>
-         <div class="row">
-            <div class="col">
-               <ul id="skills-list" class="d-flex align-items-center justify-content-center">
-                  <li class="hidden"><i class="fa-brands fa-html5"></i><span>HTML5</span></li>
-                  <li class="hidden"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></li>
-                  <li class="hidden"><i class="fa-brands fa-js"></i><span>JavaScript</span></li>
-                  <li class="hidden"><i class="fa-brands fa-bootstrap"></i><span>Bootstrap</span></li>
-                  <li class="hidden"><i class="fa-solid fa-layer-group"></i><span>UI/UX</span></li>
-                  <li class="hidden"><i class="fa-solid fa-pen-nib"></i><span>Graphic Design</span></li>
-                  <li class="hidden"><i class="fa-solid fa-camera"></i><span>Photography</span></li>
+            <div class="offcanvas-body">
+               <ul class="navbar-nav col-lg-8 justify-content-lg-center">
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#webprojects">Web</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#graphicprojects">Graphics</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#photography">Photography</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#about">About</a>
+                  </li>
+               </ul>
+               <ul
+                  class="navbar-nav col-lg-4 sm-icons align-items-center justify-content-center justify-content-lg-end">
+                  <li><a class="nav-link" href="https://www.instagram.com/willcstewart" target="_blank"><i
+                           class="fa-brands fa-instagram"></i></a></li>
+                  <li><a class="nav-link" href="https://www.threads.net/@willcstewart" target="_blank"><i
+                           class="fa-brands fa-threads"></i></a></li>
+                  <li><a class="nav-link" href="https://linkedin.com/in/willcstewart" target="_blank"><i
+                           class="fa-brands fa-linkedin-in"></i></a></li>
+                  <li><a class="nav-link" href="https://github.com/willstewartcode" target="_blank"><i
+                           class="fa-brands fa-github"></i></a></li>
+                  <li><a class="nav-link" href="https://www.behance.net/willcstewart" target="_blank"><i
+                           class="fa-brands fa-behance"></i></a></li>
                </ul>
             </div>
          </div>
-      </section>
-   </header>
+      </div>
+   </nav>
+
+   <!-- INTRO -->
+   <section id="intro" class="container-fluid d-flex flex-column align-items-center justify-content-center">
+      <div class="row section-item hidden" id="intro-text">
+         <div class="col">
+            <h1>Hi, I'm Will Stewart</h1>
+            <p class="intro-desc">I am a graphic designer with experience in branding, social media, photography, and
+               frontend web development.</p>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col">
+            <ul id="skills-list" class="d-flex align-items-center justify-content-center">
+               <li class="hidden"><i class="fa-solid fa-pen-nib"></i><span>Graphic Design</span></li>
+               <li class="hidden"><i class="fa-solid fa-camera"></i><span>Photography</span></li>
+               <li class="hidden"><i class="fa-brands fa-html5"></i><span>HTML5</span></li>
+               <li class="hidden"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></li>
+               <li class="hidden"><i class="fa-brands fa-js"></i><span>JavaScript</span></li>
+               <li class="hidden"><i class="fa-brands fa-bootstrap"></i><span>Bootstrap</span></li>
+               <li class="hidden"><i class="fa-solid fa-layer-group"></i><span>UI/UX</span></li>
+            </ul>
+         </div>
+      </div>
+   </section>
    <hr>
 
    <main>
@@ -401,10 +364,15 @@
          <div class="row section-item hidden justify-content-center">
             <div class="col-lg-6 d-flex flex-column align-items-center">
                <p class="about-text">
-                  As a graphic designer, I love creating designs that not only look great but also make a lasting impact. From logo design to branding and social media marketing, I help clients build visually striking identities that resonate with their target audiences.
+                  As a graphic designer, I love creating designs that not only look great but also make a lasting
+                  impact. From logo design to branding and social media marketing, I help clients build visually
+                  striking identities that resonate with their target audiences.
                </p>
                <p class="about-text">
-                  In addition to graphic design, I have a strong background in frontend web development, utilizing HTML, CSS, JavaScript, and Bootstrap to create websites that are both beautiful and functional. My experience in photography and photo editing adds another layer to my work, allowing me to craft polished, high-quality visuals.               </p>
+                  In addition to graphic design, I have a strong background in frontend web development, utilizing HTML,
+                  CSS, JavaScript, and Bootstrap to create websites that are both beautiful and functional. My
+                  experience in photography and photo editing adds another layer to my work, allowing me to craft
+                  polished, high-quality visuals. </p>
             </div>
          </div>
       </section>
@@ -418,22 +386,7 @@
       <footer class="footer footer-dark d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
          <div class="col-md-4 d-flex align-items-center">
             <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" id="footer-brand">
-               <svg width="100%" height="100%" viewBox="0 0 1000 867" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
-                  style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-                  <g>
-                     <path
-                        d="M200,346.41L266.66,461.88L200,692.82L0,346.42L0.01,346.41L0,346.41L200,0L266.66,230.94L200,346.41Z"
-                        style="fill:#9fa2a4;fill-rule:nonzero;" />
-                     <path
-                        d="M1000,346.41L1000,346.42L800,692.82L733.34,461.88L800,346.41L733.34,230.94L800,0L1000,346.41Z"
-                        style="fill:#9fa2a4;fill-rule:nonzero;" />
-                     <path d="M600,346.42L500,519.63L300,866.04L200,692.82L500,173.22L600,346.42Z"
-                        style="fill:#9fa2a4;fill-rule:nonzero;" />
-                     <path d="M800,692.82L700,866.04L533.34,577.36L600,346.42L800,692.82Z"
-                        style="fill:#9fa2a4;fill-rule:nonzero;" />
-                  </g>
-               </svg>
+               <img src="images/logo-salmon.png" class="footer-logo" alt="">
             </a>
             <span class="mb-3 mb-md-0">&copy; 2024 Will Stewart</span>
          </div>
