@@ -4,9 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
-    --PRIMARY-RED: #F14156;
-    --HOVER-RED: #F78D99;
-
     --BASE-BLUE: #2a7de1;
     --SOFT-BLUE: #65b2e8;
     --BODY-DARK: #5e5977;
@@ -98,6 +95,7 @@ a {
 
 .nav-link {
     text-align: center;
+    color: var(--BODY-DARK);
 }
 
 .nav-link:hover,
@@ -218,11 +216,6 @@ section a i {
     margin-left: .5rem;
 }
 
-.footer-dark,
-.footer-dark .fa-brands {
-    color: var(--BODY-DARK);
-}
-
 /* cards */
 .card {
     border: none;
@@ -280,30 +273,32 @@ section a i {
     color: var(--SALMON-PRIMARY);
 }
 
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--SALMON-PRIMARY);
+    color: white;
+}
+
 .btn-primary i,
 .btn-primary span {
     font-size: 1rem;
     margin: 0;
 }
 
-.btn-primary:hover,
-.btn-primary:focus {
-    background-image: var(--gradient);
-    background-color: transparent;
-}
-
-.card-img-overlay  {
-    background-color: rgba(0, 0, 0, 0.75);
-    height: fit-content;
-    margin-top: auto;
-}
-
-#footer-brand svg {
-    max-width: 30px;
-}
-
 .about-text {
     font-size: 1.2rem;
+}
+
+/*
+    FOOTER
+*/
+.footer-dark,
+.footer-dark .fa-brands {
+    color: var(--BODY-DARK);
+}
+
+.footer-logo {
+    max-height: 30px;
 }
 
 /* On scroll animations */
@@ -379,10 +374,6 @@ section a i {
 
 .card-wrapper:nth-child(6) {
     transition-delay: 350ms;
-}
-
-.footer-logo {
-    max-height: 30px;
 }
 
 
