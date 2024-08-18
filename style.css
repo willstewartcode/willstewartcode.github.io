@@ -238,6 +238,7 @@ section a i {
 
 #landing-page-cards .card-title {
     font-size: 3rem;
+    color: var(--SALMON-PRIMARY);
 }
 
 #landing-page-cards .card-img-top {
