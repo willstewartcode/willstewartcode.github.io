@@ -25,7 +25,6 @@ body {
     color: var(--BODY-DARK);
 }
 
-h1,
 h3 {
     color: var(--BODY-DARK);
 }
@@ -123,8 +122,8 @@ section a i {
 */
 
 #intro {
-    background-image: url(images/website-banner-image.jpg);
-    background-size: cover;
+    background-image: var(--gradient);
+
 }
 
 #intro h1 {
@@ -142,11 +141,6 @@ section a i {
     margin: 2rem auto;
 }
 
-#logo svg {
-    max-width: 120px;
-    height: auto;
-}
-
 .intro-desc {
     font-size: 1.4rem;
 }
@@ -154,6 +148,10 @@ section a i {
 .profile-pic {
     border-radius: 50%;
     max-width: 250px;
+}
+
+#intro .profile-pic {
+    border: 2px solid white;
 }
 
 #skills-list,
