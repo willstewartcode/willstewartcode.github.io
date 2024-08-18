@@ -33,10 +33,7 @@
 
 body {
     font-family: 'Barlow', sans-serif;
-}
-
-h3 {
-    color: var(--BODY-DARK);
+    background-color: #0B0207;
 }
 
 h1,
@@ -51,7 +48,7 @@ h4 {
 }
 
 hr {
-    border: 1px solid var(--SEPARATOR-GRAY);
+    border: 1px solid var(--BODY-DARK);
     width: 50%;
     border-radius: 2px;
     padding: 0 15px;
@@ -215,7 +212,7 @@ section a i {
 
 .section-heading::before,
 .section-heading::after {
-    color: var(--SALMON-LIGHT);
+    color: var(--BASE-RED);
     font-weight: 400;
 }
 
@@ -251,12 +248,12 @@ section a i {
 }
 
 #landing-page-cards .card {
-    color: var(--BODY-DARK);
+    background-color: transparent;
 }
 
 #landing-page-cards .card-title {
     font-size: 3rem;
-    color: var(--SALMON-PRIMARY);
+    color: var(--BASE-RED);
 }
 
 #landing-page-cards .card-img-top {
@@ -271,7 +268,7 @@ section a i {
 }
 
 .card-title a {
-    color: var(--SALMON-PRIMARY);
+    color: var(--BASE-RED);
     transition: color 180ms;
 }
 
@@ -308,12 +305,12 @@ section a i {
     padding: 8px 16px;
     background-color: #f8f9fa;
     border: none;
-    color: var(--SALMON-PRIMARY);
+    color: var(--BASE-RED);
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: var(--SALMON-PRIMARY);
+    background-color: var(--BASE-RED);
     color: white;
 }
 
