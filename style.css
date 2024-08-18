@@ -216,7 +216,7 @@ section a i {
     border: none;
 }
 
-.card-body {
+#webprojects .card-body {
     border-top: 2px solid rgba(214, 214, 214, .3);
     border-bottom: 2px solid rgba(214, 214, 214, .3);
     border-radius: 2px;
@@ -225,6 +225,30 @@ section a i {
 
 .card-title {
     font-size: 2rem;
+}
+
+#landing-page-cards .card-body {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+#landing-page-cards .card {
+    color: var(--BODY-DARK);
+}
+
+#landing-page-cards .card-title {
+    font-size: 3rem;
+}
+
+#landing-page-cards .card-img-top {
+    border-radius: 10px;
+    transition: all 200ms;
+}
+
+#landing-page-cards .card-img-top:hover,
+#landing-page-cards .card-img-top:focus {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.20), 0 15px 12px rgba(0,0,0,0.11);
+    transform: scale(103%);
 }
 
 .card-title a {
