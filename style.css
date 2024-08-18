@@ -123,11 +123,9 @@ section a i {
 
 #intro {
     background-image: var(--gradient);
-
 }
 
 #intro h1 {
-    
     font-size: 3rem;
 }
 
@@ -137,7 +135,6 @@ section a i {
 }
 
 #intro-text {
-    text-align: center;
     margin: 2rem auto;
 }
 
@@ -372,17 +369,6 @@ section a i {
 
 .card-wrapper:nth-child(6) {
     transition-delay: 350ms;
-}
-
-
-/*
-    MEDIA QUERIES
-*/
-@media (max-width: 1199px) {
-    #intro-text {
-        text-align: center;
-        align-items: center;
-    }
 }
 
 @media(prefers-reduced-motion) {
