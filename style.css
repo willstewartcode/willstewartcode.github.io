@@ -102,6 +102,10 @@ a {
     color: var(--SALMON-PRIMARY);
 }
 
+.nav-link.active {
+    color: var(--SALMON-PRIMARY) !important;
+}
+
 /*
     SECTIONS
 */
