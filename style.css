@@ -241,7 +241,7 @@ section a i {
 }
 
 #landing-page-cards .card-img-top {
-    border-radius: 10px;
+    border-radius: 50%;
     transition: all 200ms;
 }
 
