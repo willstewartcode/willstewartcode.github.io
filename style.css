@@ -71,9 +71,13 @@ a {
     font-size: 1.5rem;
 }
 
+.navbar,
+.offcanvas {
+    background-color: #0B0207;
+}
+
 .navbar {
     font-family: 'Bebas Neue', sans-serif;
-    background-color: white;
 }
 
 .navbar-brand {
@@ -105,16 +109,16 @@ a {
 
 .nav-link {
     text-align: center;
-    color: var(--BODY-DARK);
+    color: white;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    color: var(--SALMON-PRIMARY);
+    color: var(--BASE-RED);
 }
 
 .nav-link.active {
-    color: var(--SALMON-PRIMARY) !important;
+    color: var(--BASE-RED) !important;
 }
 
 /*
