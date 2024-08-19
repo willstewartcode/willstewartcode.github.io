@@ -22,8 +22,7 @@
             #360620,
             #0B0207);
 
-    --mixed-gradient: linear-gradient(
-        135deg,
+    --mixed-gradient: linear-gradient(135deg,
             #2D0419 0,
             #EE0056 15%,
             #360620 15%,
@@ -164,7 +163,8 @@ section a i {
 }
 
 #intro .profile-pic {
-    border: 2px solid white;
+    box-shadow: 0 0 100px var(--BASE-RED);
+
 }
 
 #skills-list,
