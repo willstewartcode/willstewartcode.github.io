@@ -12,6 +12,7 @@
     --SALMON-LIGHT: #FF999C;
 
     --BASE-RED: #EE0056;
+    --LIGHT-RED: #f34d89;
 
     --red-gradient: linear-gradient(0deg,
             #EE0056,
@@ -267,7 +268,7 @@ section a i {
 
 .card-title a:hover,
 .card-title a:focus {
-    color: var(--SALMON-DARK);
+    color: var(--LIGHT-RED);
 }
 
 .card-link i {
