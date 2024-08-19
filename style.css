@@ -179,10 +179,6 @@ section a i {
     color: white;
 }
 
-.card-list {
-    color: var(--BODY-DARK);
-}
-
 #skills-list {
     gap: 1.5rem;
 }
@@ -229,11 +225,12 @@ section a i {
 /* cards */
 .card {
     border: none;
+    background-color: transparent;
 }
 
 #webprojects .card-body {
-    border-top: 2px solid rgba(214, 214, 214, .3);
-    border-bottom: 2px solid rgba(214, 214, 214, .3);
+    border-top: 2px solid rgba(94, 89, 119, .3);
+    border-bottom: 2px solid rgba(94, 89, 119, .3);
     border-radius: 2px;
     padding: 2rem 0 2rem 0;
 }
@@ -245,10 +242,6 @@ section a i {
 #landing-page-cards .card-body {
     margin-top: 1rem;
     font-size: 1.2rem;
-}
-
-#landing-page-cards .card {
-    background-color: transparent;
 }
 
 #landing-page-cards .card-title {
@@ -295,6 +288,13 @@ section a i {
     gap: .5rem;
 }
 
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    border: 1px solid var(--BASE-RED) !important;
+}
+
 .btn-primary {
     font-family: 'Bebas Neue', sans-serif;
     display: flex;
@@ -303,15 +303,21 @@ section a i {
     gap: .5rem;
     border-radius: 30px;
     padding: 8px 16px;
-    background-color: #f8f9fa;
-    border: none;
+    background-color: transparent;
+    border: 1px solid var(--BASE-RED);
     color: var(--BASE-RED);
+    transition: transform 100ms;
 }
 
 .btn-primary:hover,
-.btn-primary:focus {
-    background-color: var(--BASE-RED);
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: var(--BASE-RED) !important;
     color: white;
+}
+
+.btn-primary:active {
+    transform: scale(95%);
 }
 
 .btn-primary i,
