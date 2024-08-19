@@ -127,16 +127,12 @@ section {
     padding-bottom: 100px;
 }
 
-section a i {
-    font-size: .8rem;
-    margin-left: .2rem;
-}
-
 /*
     INTRO SECTION
 */
 
-#intro {
+#intro,
+#about {
     background-image: var(--mixed-gradient);
 }
 
@@ -160,9 +156,6 @@ section a i {
 .profile-pic {
     border-radius: 50%;
     max-width: 250px;
-}
-
-#intro .profile-pic {
     box-shadow: 0 0 100px var(--BASE-RED);
 
 }
@@ -210,16 +203,15 @@ section a i {
 .section-heading::before,
 .section-heading::after {
     color: var(--BASE-RED);
-    font-weight: 400;
 }
 
 .section-heading::before {
-    content: '< ';
+    content: '// ';
     margin-right: .5rem;
 }
 
 .section-heading::after {
-    content: ' >';
+    content: ' //';
     margin-left: .5rem;
 }
 
@@ -329,6 +321,20 @@ section a i {
 
 .about-text {
     font-size: 1.2rem;
+}
+
+.about-links {
+    gap: 2rem;
+}
+
+.about-links a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.about-links a:hover,
+.about-links a:focus {
+    color: var(--BASE-RED);
 }
 
 /*
