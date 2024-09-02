@@ -6,6 +6,7 @@
 :root {
     --SEPARATOR-GRAY: #d6d6d6;
     --DARK-GRAY: #575757;
+    --OFF-WHITE: #fafafa;
 
     --BASE-RED: #EE0056;
     --LIGHT-RED: #f34d89;
@@ -13,7 +14,7 @@
 
 body {
     font-family: 'Barlow', sans-serif;
-    background-color: #fafafa;
+    background-color: var(--OFF-WHITE);
     color: var(--DARK-GRAY);
 }
 
@@ -28,14 +29,6 @@ h4 {
     margin-bottom: 2rem;
 }
 
-hr {
-    border: 1px solid var(--BODY-DARK);
-    width: 50%;
-    border-radius: 2px;
-    padding: 0 15px;
-    margin: auto;
-}
-
 a {
     text-decoration: none;
 }
@@ -43,11 +36,6 @@ a {
 /*
     NAVBAR
 */
-
-.navbar,
-.offcanvas {
-    background-color: #fafafa;
-}
 
 .navbar,
 .navbar-brand {
@@ -187,9 +175,8 @@ section {
 }
 
 #webprojects .card-body {
-    border-top: 2px solid rgba(94, 89, 119, .3);
-    border-bottom: 2px solid rgba(94, 89, 119, .3);
-    border-radius: 2px;
+    border-top: 1px solid rgba(0, 0, 0, 0.11);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
     padding: 2rem 0 2rem 0;
 }
 
@@ -303,7 +290,7 @@ section {
 */
 .footer-dark,
 .footer-dark .fa-brands {
-    color: var(--BODY-DARK);
+    color: var(--DARK-GRAY);
 }
 
 .footer-logo {
