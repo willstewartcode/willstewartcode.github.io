@@ -291,6 +291,7 @@ section {
 
 .portfolio-item .card {
     border: 1px solid rgba(0, 0, 0, 0.11);
+    transition: all 200ms;
 }
 
 .portfolio-item img {
@@ -316,6 +317,14 @@ section {
 .portfolio-item .btn-primary {
     width: fit-content;
     margin: auto;
+}
+
+.portfolio-item a:hover,
+.portfolio-item a:focus {
+    .card {
+        transform: scale(1.04);
+        box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
+    }
 }
 
 /*
