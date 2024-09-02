@@ -285,6 +285,39 @@ section {
     color: var(--BASE-RED);
 }
 
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-item .card {
+    border: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-item .card-body {
+    text-align: center;
+}
+
+.portfolio-item .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+    color: var(--BASE-RED);
+}
+
+.portfolio-item .card-text {
+    font-size: 1rem;
+}
+
+.portfolio-item .btn-primary {
+    width: fit-content;
+    margin: auto;
+}
+
 /*
     FOOTER
 */
