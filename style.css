@@ -198,7 +198,7 @@ section {
 
 #landing-page-cards .card-img-top:hover,
 #landing-page-cards .card-img-top:focus {   
-    transform: scale(104%);
+    transform: scale(1.05);
 }
 
 .card-title a {
@@ -258,7 +258,7 @@ section {
 }
 
 .btn-primary:active {
-    transform: scale(95%);
+    transform: scale(.95);
 }
 
 .btn-primary i,
