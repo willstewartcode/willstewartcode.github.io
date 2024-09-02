@@ -4,32 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&display=swap');
 
 :root {
-    --BODY-DARK: #5e5977;
     --SEPARATOR-GRAY: #d6d6d6;
     --DARK-GRAY: #575757;
 
-    --SALMON-PRIMARY: #FF7075;
-    --SALMON-DARK: #FF5A5F;
-    --SALMON-LIGHT: #FF999C;
-
     --BASE-RED: #EE0056;
     --LIGHT-RED: #f34d89;
-
-    --red-gradient: linear-gradient(0deg,
-            #EE0056,
-            #2D0419);
-
-    --dark-gradient: linear-gradient(0deg,
-            #360620,
-            #0B0207);
-
-    --mixed-gradient: linear-gradient(135deg,
-            #2D0419 0,
-            #EE0056 15%,
-            #360620 15%,
-            #0B0207 80%,
-            #EE0056 80%,
-            #2D0419 100%);
 }
 
 body {
