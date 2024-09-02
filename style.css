@@ -183,6 +183,7 @@ section {
 .heading-icon {
     font-size: 2rem;
     color: #b8b8b8;
+    margin-bottom: .8rem;
 }
 
 /* .section-heading::before,
