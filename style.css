@@ -55,7 +55,7 @@ a {
 
 .navbar-brand img {
     max-width: 40px;
-    height: fit-content;
+    height: auto;
     margin-right: 1rem;
 }
 
