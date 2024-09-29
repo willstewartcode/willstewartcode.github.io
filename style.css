@@ -33,6 +33,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 /*
     NAVBAR
 */
