@@ -2,9 +2,9 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 1000 867" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <g>
-        <path id="polygon2" d="M200,346.41L266.66,461.88L200,692.82L0,346.42L0.01,346.41L0,346.41L200,0L266.66,230.94L200,346.41Z" style="fill:rgb(42,125,225);fill-rule:nonzero;"/>
-        <path id="polygon4" d="M1000,346.41L1000,346.42L800,692.82L733.34,461.88L800,346.41L733.34,230.94L800,0L1000,346.41Z" style="fill:rgb(42,125,225);fill-rule:nonzero;"/>
-        <path id="polygon6" d="M600,346.42L500,519.63L300,866.04L200,692.82L500,173.22L600,346.42Z" style="fill:rgb(42,125,225);fill-rule:nonzero;"/>
-        <path id="polygon8" d="M800,692.82L700,866.04L533.34,577.36L600,346.42L800,692.82Z" style="fill:rgb(42,125,225);fill-rule:nonzero;"/>
+        <path id="polygon2" d="M200,346.41L266.66,461.88L200,692.82L0,346.42L0.01,346.41L0,346.41L200,0L266.66,230.94L200,346.41Z" style="fill:rgb(50,50,50);fill-rule:nonzero;"/>
+        <path id="polygon4" d="M1000,346.41L1000,346.42L800,692.82L733.34,461.88L800,346.41L733.34,230.94L800,0L1000,346.41Z" style="fill:rgb(50,50,50);fill-rule:nonzero;"/>
+        <path id="polygon6" d="M600,346.42L500,519.63L300,866.04L200,692.82L500,173.22L600,346.42Z" style="fill:rgb(50,50,50);fill-rule:nonzero;"/>
+        <path id="polygon8" d="M800,692.82L700,866.04L533.34,577.36L600,346.42L800,692.82Z" style="fill:rgb(50,50,50);fill-rule:nonzero;"/>
     </g>
 </svg>

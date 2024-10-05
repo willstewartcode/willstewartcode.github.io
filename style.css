@@ -1,28 +1,29 @@
 /*
     GENERAL
 */
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root {
     --SEPARATOR-GRAY: #d6d6d6;
-    --DARK-GRAY: #575757;
+    --DARK-GRAY: rgb(87, 87, 87);
     --OFF-WHITE: #fafafa;
+    --A-LIGHT-GRAY: rgb(245,245,247);
+    --A-DARK-GRAY: rgb(29,29,31);
 
-    --BASE-RED: #EE0056;
+    --PRIMARY: rgb(238,0,86);
     --LIGHT-RED: #f34d89;
 }
 
 body {
-    font-family: 'Barlow', sans-serif;
-    background-color: var(--OFF-WHITE);
-    color: var(--DARK-GRAY);
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--A-LIGHT-GRAY);
+    color: var(--A-DARK-GRAY);
+    font-weight: 300;
 }
 
-h1,
-h3,
-h4 {
-    font-weight: bold;
+h1,h3,h4 {
+    color: var(--A-DARK-GRAY);
 }
+
 
 h3,
 h4 {
@@ -42,12 +43,23 @@ a:hover {
 */
 
 .navbar,
+.offcanvas {
+    background-color: var(--A-LIGHT-GRAY);
+}
+
+.w-logo {
+    max-width: 40px;
+    height: auto;
+    fill: var(--PRIMARY);
+}
+
+.navbar,
 .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .navbar {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar-brand {
@@ -60,7 +72,10 @@ a:hover {
 .navbar-brand img {
     max-width: 40px;
     height: auto;
-    margin-right: 1rem;
+}
+
+.offcanvas-title {
+    display: none;
 }
 
 .sm-icons {
@@ -84,11 +99,11 @@ a:hover {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: var(--BASE-RED);
+    color: var(--PRIMARY);
 }
 
 .nav-link.active {
-    color: var(--BASE-RED) !important;
+    color: var(--PRIMARY) !important;
 }
 
 /*
@@ -96,8 +111,6 @@ a:hover {
 */
 section {
     box-sizing: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.11);
-    border-radius: 40px;
     background-color: white;
     box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
     padding: 4rem 3rem !important;
@@ -159,7 +172,7 @@ section {
 
 /* .section-heading::before,
 .section-heading::after {
-    color: var(--BASE-RED);
+    color: var(--PRIMARY);
 }
 
 .section-heading::before {
@@ -191,7 +204,7 @@ section {
 
 #landing-page-cards .card-title {
     font-size: 2.5rem;
-    color: var(--BASE-RED);
+    color: var(--PRIMARY);
 }
 
 #landing-page-cards .card-img-top {
@@ -206,7 +219,7 @@ section {
 }
 
 .card-title a {
-    color: var(--BASE-RED);
+    color: var(--PRIMARY);
     transition: color 180ms;
 }
 
@@ -237,7 +250,7 @@ section {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-    border: 1px solid var(--BASE-RED) !important;
+    border: 1px solid var(--PRIMARY) !important;
 }
 
 .btn-primary {
@@ -249,15 +262,15 @@ section {
     border-radius: 30px;
     padding: 8px 16px;
     background-color: transparent;
-    border: 1px solid var(--BASE-RED);
-    color: var(--BASE-RED);
+    border: 1px solid var(--PRIMARY);
+    color: var(--PRIMARY);
     transition: transform 100ms;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-    background-color: var(--BASE-RED) !important;
+    background-color: var(--PRIMARY) !important;
     color: white;
 }
 
@@ -286,7 +299,7 @@ section {
 
 .about-links a:hover,
 .about-links a:focus {
-    color: var(--BASE-RED);
+    color: var(--PRIMARY);
 }
 
 .portfolio-item {
@@ -311,7 +324,7 @@ section {
     font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Barlow', sans-serif;
-    color: var(--BASE-RED);
+    color: var(--PRIMARY);
 }
 
 .portfolio-item .card-text {
