@@ -6,17 +6,18 @@
     --SEPARATOR-GRAY: #d6d6d6;
     --DARK-GRAY: rgb(87, 87, 87);
     --OFF-WHITE: #fafafa;
-    --A-LIGHT-GRAY: rgb(245,245,247);
-    --A-DARK-GRAY: rgb(29,29,31);
+    --A-LIGHT-GRAY: #fafafc;
+    --A-DARK-GRAY: rgb(36,36,36);
+    --A-MD-GRAY: rgb(118,118,118);
 
-    --PRIMARY: rgb(238,0,86);
+    --PRIMARY: rgb(254,44,85);
     --LIGHT-RED: #f34d89;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--A-LIGHT-GRAY);
-    color: var(--A-DARK-GRAY);
+    color: var(--A-MD-GRAY);
     font-weight: 300;
 }
 
@@ -48,14 +49,9 @@ a:hover {
 }
 
 .w-logo {
-    max-width: 40px;
+    max-width: 32px;
     height: auto;
     fill: var(--PRIMARY);
-}
-
-.navbar,
-.navbar-brand {
-    font-size: 1.2rem;
 }
 
 .navbar {
@@ -97,23 +93,11 @@ a:hover {
     color: var(--DARK-GRAY);
 }
 
-.nav-link:hover,
-.nav-link:focus {
-    color: var(--PRIMARY);
-}
-
-.nav-link.active {
-    color: var(--PRIMARY) !important;
-}
-
 /*
     SECTIONS
 */
 section {
     box-sizing: border-box;
-    background-color: white;
-    box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
-    padding: 4rem 3rem !important;
 }
 
 /*
@@ -161,13 +145,14 @@ section {
 }
 
 .section-heading {
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .heading-icon {
     font-size: 2rem;
     color: #b8b8b8;
-    margin-bottom: .8rem;
+    margin-right: .5rem;
 }
 
 /* .section-heading::before,
@@ -221,11 +206,6 @@ section {
 .card-title a {
     color: var(--PRIMARY);
     transition: color 180ms;
-}
-
-.card-title a:hover,
-.card-title a:focus {
-    color: var(--LIGHT-RED);
 }
 
 .card-link i {
